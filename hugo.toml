@@ -1,0 +1,15 @@
+baseURL = 'https://skatebuffalo.com/'
+languageCode = 'en-us'
+title = 'Skate Buffalo'
+copyright = 'Corey Beres'
+theme = 'ananke'
+
+[params]
+customCss = ['css/hero.css', 'css/flickity.min.css']
+customJs = ['js/flickity.pkgd.min.js']
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
