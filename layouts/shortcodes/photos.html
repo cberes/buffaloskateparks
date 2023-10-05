@@ -1,0 +1,8 @@
+{{- with .Page.Resources.ByType "image" -}}
+  <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+  {{ range . -}}
+    <div class="carousel-cell"><img src="{{ .Permalink }}"></div>
+  {{- end }}
+  </div>
+{{-  end -}}
+
