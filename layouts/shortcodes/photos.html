@@ -1,7 +1,9 @@
 {{- with .Page.Resources.ByType "image" -}}
-  <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+  <div class="main-carousel" data-flickity='{ "fullscreen": true, "lazyLoad": 1 }'>
   {{ range . -}}
-    <div class="carousel-cell"><img src="{{ .Permalink }}"></div>
+    <div class="carousel-cell">
+      <img class="carousel-cell-image" data-flickity-lazyload="{{ .Permalink }}">
+    </div>
   {{- end }}
   </div>
 {{-  end -}}

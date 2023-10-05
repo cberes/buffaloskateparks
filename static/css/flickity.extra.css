@@ -1,0 +1,17 @@
+.carousel-image {
+  display: block;
+  height: 200px;
+  /* set min-width,
+     allow images to determine cell width */
+  min-width: 150px;
+  max-width: 100%;
+  margin-right: 10px;
+  /* vertically center */
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+.carousel.is-fullscreen .carousel-image {
+  height: auto;
+  max-height: 100%;
+}

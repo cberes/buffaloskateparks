@@ -5,6 +5,6 @@ copyright = 'Corey Beres'
 theme = 'ananke'
 
 [params]
-customCss = ['css/hero.css', 'css/flickity.min.css']
-customJs = ['js/flickity.pkgd.min.js']
+customCss = ['css/hero.css', 'css/flickity.min.css', 'css/flickity-fullscreen.css', 'css/flickity.extra.css']
+customJs = ['js/flickity.pkgd.min.js', 'js/flickity-fullscreen.js']
 
