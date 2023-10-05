@@ -3,7 +3,7 @@ title = 'Luke Nelson'
 date = 2023-10-02T17:21:08-04:00
 featured_image = '/medina/1.jpg'
 categories = ['outdoor']
-tags = ['medina','outdoor','concrete','box','flat-rail','down-rail','bowl','a-frame','manual-pad','3-ft-transition','4-ft-transition']
+tags = ['medina','outdoor','concrete','box','flat-rail','down-rail','bowl','a-frame','manual-pad','2-ft-transition','3-ft-transition','4-ft-transition']
 +++
 
 ## Location
@@ -23,7 +23,7 @@ One of the only skateparks in the area that's illuminated for night skating (the
 - ramp wall
 - bowl
 - 3-sided miniramp?
-- 2', 3', and 4' transition
+- 2', 3', and 4' quarter pipes
 - A-frame with rail
 - flat rail
 - down rail

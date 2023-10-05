@@ -12,7 +12,7 @@ Keysa Town Park, Keysa Park, Vandenberg Ave, Lancaster, NY 14086
 
 ## Description
 
-The skatepark contains a few distinct sections. There are 4' quarter pipes with boxes, a gap, and a flat rail in between. Behind this is a section with mellow down ledges and banks. The two corners or this area are used for flat-ground tricks. There's also a big 6-stair with a handrail. To the side is an A-frame that leads to a 3' quarter pipe, which was added a few years after the park's initial construction.
+The skatepark contains a few distinct sections. There are 4' quarter pipes with boxes, a gap, and a flat rail in between. Behind this is a section with mellow down ledges and banks. The two corners of this area are often used for flat-ground tricks. There's a 6-stair with a handrail to the side of hte quarter pipes. At the far end is an A-frame that leads to a 3' quarter pipe, which was added a few years after the park's initial construction.
 
 The park is popular with children who do laps around the park.
 
