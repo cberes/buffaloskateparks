@@ -8,8 +8,3 @@ theme = 'ananke'
 customCss = ['css/hero.css', 'css/flickity.min.css']
 customJs = ['js/flickity.pkgd.min.js']
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-
