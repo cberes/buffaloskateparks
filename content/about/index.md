@@ -2,7 +2,7 @@
 title = 'About'
 [menu]
 [menu.main]
-  weight = 1
+  weight = 50
 +++
 
 This website is meant to be a comprehensive list of skateparks in and around Buffalo, New York. There are great skateparks in Jamestown and Rochester, but they were intentionally omitted from this list.
