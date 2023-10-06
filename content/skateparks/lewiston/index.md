@@ -1,6 +1,6 @@
 +++
 title = 'Lewiston'
-date = 2023-10-02T17:21:47-04:00
+#date = 2023-10-02T17:21:47-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor']
 tags = ['lewiston','outdoor','concrete']

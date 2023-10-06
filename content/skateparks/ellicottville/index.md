@@ -1,6 +1,7 @@
 +++
 title = 'Ellicottville'
-date = 2023-10-02T17:21:40-04:00
+# https://www.salamancapress.com/news/ellicottville-opens-250k-village-skatepark/article_ac987e34-1918-11ee-8057-d3987d6ff80d.html
+date = 2023-06-30T00:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor']
 tags = ['ellicottville','outdoor','concrete','bowl','flat-rail','box','hip','manual-pad','4-ft-transition']

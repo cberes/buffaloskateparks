@@ -1,6 +1,7 @@
 +++
 title = 'Hyde Park'
-date = 2023-10-02T17:21:20-04:00
+# https://ny1.com/nyc/all-boroughs/news/2016/10/6/niagara-falls-new-skate-park
+date = 2016-10-06T00:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor']
 tags = ['niagara-falls','outdoor','concrete','box','a-frame','hip','flat-rail','down-rail','manual-pad','4-ft-transition','5-ft-transition']

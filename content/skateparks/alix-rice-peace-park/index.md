@@ -1,6 +1,7 @@
 +++
 title = 'Alix Rice Peace Park'
-date = 2023-10-02T17:20:01-04:00
+# https://www.wbfo.org/local/2018-08-03/alix-rice-skate-park-a-six-year-labor-of-love-opens-saturday
+date = 2018-08-04T00:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor']
 tags = ['amherst','outdoor','concrete','bowl','box','down-rail','manual-pad','2-ft-transition','4-ft-transition']

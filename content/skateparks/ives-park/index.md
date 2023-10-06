@@ -1,6 +1,7 @@
 +++
 title = 'Ives Park'
-date = 2023-10-02T17:20:28-04:00
+# https://www.concretedisciples.com/global-skatepark-directory/usa-skateparks-guide/new-york/gregory-hayes-holler-community-skate-park-tonawanda/
+date = 2011-05-24T00:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor']
 tags = ['tonawanda','outdoor','concrete','box','down-rail','3-ft-transition']

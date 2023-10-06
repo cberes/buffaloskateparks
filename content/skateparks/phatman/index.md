@@ -1,6 +1,7 @@
 +++
 title = 'Phatman'
-date = 2023-10-02T19:54:24-04:00
+# https://web.archive.org/web/20190722144301/http://phatmanboardshop.com:80/the-bailey-project/
+date = 2019-07-22T00:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['indoor']
 tags = ['amherst','indoor','concrete']

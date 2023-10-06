@@ -1,6 +1,7 @@
 +++
 title = 'Food Court'
-date = 2023-10-02T17:19:43-04:00
+# https://www.wkbw.com/news/local-news/food-court-skatepark-in-mckinley-mall-brings-year-round-skateboarding-to-wny
+date = 2023-07-23T12:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['indoor']
 tags = ['hamburg','indoor','wood','bowl','box','flat-rail','down-rail','a-frame','hip','manual-pad','3-ft-transition','4-ft-transition','5-ft-transition','7-ft-transition']

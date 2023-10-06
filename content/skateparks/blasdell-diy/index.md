@@ -1,6 +1,6 @@
 +++
 title = 'Blasdell DIY'
-date = 2023-10-02T17:20:11-04:00
+#date = 2023-10-02T17:20:11-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor']
 tags = ['blasdell','outdoor','asphalt','hamburg','diy','box','flat-rail']

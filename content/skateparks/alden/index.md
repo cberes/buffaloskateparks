@@ -1,6 +1,7 @@
 +++
 title = 'Alden'
-date = 2023-10-02T17:20:34-04:00
+# https://aldenadvertisernews.com/skate-park-dedicated/
+date = 2017-09-10T00:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor']
 tags = ['alden','outdoor','asphalt','modular','box','hip','manual-pad','3-ft-transition','4-ft-transition']

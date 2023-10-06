@@ -1,6 +1,6 @@
 +++
 title = 'Outer Harbor DIY'
-date = 2023-10-02T17:20:19-04:00
+#date = 2023-10-02T17:20:19-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor']
 tags = ['buffalo','outdoor','concrete','diy','box','flat-rail','3-ft-transition']
