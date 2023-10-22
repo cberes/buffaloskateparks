@@ -16,6 +16,8 @@ tags = ['fort-erie','outdoor','concrete','flat-rail','down-rail','box','a-frame'
 
 This skatepark is across the border, but it's close enough that it might be an option for you. Of course, you'd be driving right past [Lasalle](/skateparks/lasalle) if you take the Peace Bridge.
 
+Fort Erie provides a [live stream](https://www.forterie.ca/en/recreation-and-culture/skatepark.aspx) of the skatepark--you can see if the park is crowded before you go.
+
 ## Features
 
 - bowl
