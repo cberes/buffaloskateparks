@@ -18,6 +18,10 @@ DIY in Buffalo's Outer Harbor. The surface is concrete, and the middle is slight
 
 There's another, smaller DIY down the road.
 
+### March 2024 update
+
+The DIY is in good shape. A new (unusually short) flat rail was installed (bolted to the concrete).
+
 ## Features
 
 - boxes
