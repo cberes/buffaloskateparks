@@ -1,5 +1,5 @@
 +++
-title = 'Lockport'
+title = 'Lockport Railyard'
 aliases = ['/upcoming/lockport']
 # https://lockportny.gov/railyard-skatepark-opening-ceremony/
 date = 2024-04-20T12:00:00-04:00
