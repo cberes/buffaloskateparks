@@ -3,7 +3,7 @@ title = 'Dunkirk'
 #date = 2023-10-02T17:21:33-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor']
-tags = ['dunkirk','outdoor','concrete','modular','box','flat-rail','down-rail','hip','spine','volcano','3-ft-transition','4-ft-transition']
+tags = ['dunkirk','outdoor','concrete','modular','illuminated','box','flat-rail','down-rail','hip','spine','volcano','3-ft-transition','4-ft-transition']
 +++
 
 {{< photos >}}
@@ -30,3 +30,7 @@ Modular skatepark, though the features and surface are concrete. Has one of the 
 ## Bathrooms
 
 There are bathrooms by the baseball fields.
+
+## Lighting
+
+There are overhead lights around the park.
