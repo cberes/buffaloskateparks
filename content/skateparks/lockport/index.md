@@ -5,7 +5,7 @@ aliases = ['/upcoming/lockport']
 date = 2024-04-20T12:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor']
-tags = ['lockport','outdoor','concrete','box','flat-rail','down-rail','hip','2-ft-transition','3-ft-transition','4-ft-transition','5-ft-transition','spine']
+tags = ['lockport','outdoor','concrete','box','flat-rail','down-rail','hip','2-ft-transition','3-ft-transition','4-ft-transition','5-ft-transition','spine','stairs']
 +++
 
 

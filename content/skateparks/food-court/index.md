@@ -4,7 +4,7 @@ title = 'Food Court'
 date = 2023-07-23T12:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['indoor']
-tags = ['hamburg','indoor','wood','bowl','box','flat-rail','down-rail','a-frame','hip','manual-pad','3-ft-transition','4-ft-transition','5-ft-transition','7-ft-transition']
+tags = ['hamburg','indoor','wood','bowl','box','flat-rail','down-rail','a-frame','hip','manual-pad','3-ft-transition','4-ft-transition','5-ft-transition','7-ft-transition','stairs']
 +++
 
 {{< photos >}}

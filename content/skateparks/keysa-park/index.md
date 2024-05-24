@@ -4,7 +4,7 @@ title = 'Bryce Buchholz (Keysa Park)'
 date = 2014-09-28T12:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor']
-tags = ['lancaster','outdoor','concrete','box','flat-rail','down-rail','a-frame','3-ft-transition','4-ft-transition']
+tags = ['lancaster','outdoor','concrete','box','flat-rail','down-rail','a-frame','3-ft-transition','4-ft-transition','stairs']
 +++
 
 {{< photos >}}

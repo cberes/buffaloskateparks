@@ -4,7 +4,7 @@ title = 'Luke Nelson (Medina)'
 date = 2021-09-04T00:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor']
-tags = ['medina','outdoor','concrete','illuminated','box','flat-rail','down-rail','bowl','a-frame','manual-pad','2-ft-transition','3-ft-transition','4-ft-transition']
+tags = ['medina','outdoor','concrete','illuminated','box','flat-rail','down-rail','bowl','a-frame','manual-pad','2-ft-transition','3-ft-transition','4-ft-transition','stairs']
 +++
 
 

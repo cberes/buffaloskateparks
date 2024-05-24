@@ -4,7 +4,7 @@ title = 'LaSalle'
 date = 2013-07-24T00:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor']
-tags = ['buffalo','outdoor','concrete','box','flat-rail','down-rail','a-frame','hip','bowl','manual-pad','2-ft-transition','3-ft-transition','4-ft-transition']
+tags = ['buffalo','outdoor','concrete','box','flat-rail','down-rail','a-frame','hip','bowl','manual-pad','2-ft-transition','3-ft-transition','4-ft-transition','stairs']
 +++
 
 {{< photos >}}
@@ -28,7 +28,7 @@ People like to park nearby and show off how loud their cars' sound systems are.
 - pyramid with ledge
 - flat rail
 - down rails
-- 6-stair with hubba
+- 6-stair with rail and hubba
 - 3-stair with rail
 - A-frame with rail and ledge
 - manual pad

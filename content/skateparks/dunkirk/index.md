@@ -3,7 +3,7 @@ title = 'Dunkirk'
 #date = 2023-10-02T17:21:33-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor']
-tags = ['dunkirk','outdoor','concrete','modular','illuminated','box','flat-rail','down-rail','hip','spine','volcano','3-ft-transition','4-ft-transition']
+tags = ['dunkirk','outdoor','concrete','modular','illuminated','box','flat-rail','down-rail','hip','spine','volcano','3-ft-transition','4-ft-transition','stairs']
 +++
 
 {{< photos >}}

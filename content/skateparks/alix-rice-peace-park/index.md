@@ -4,7 +4,7 @@ title = 'Alix Rice Peace Park'
 date = 2018-08-04T00:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor']
-tags = ['amherst','outdoor','concrete','illuminated','bowl','box','down-rail','manual-pad','2-ft-transition','4-ft-transition']
+tags = ['amherst','outdoor','concrete','illuminated','bowl','box','down-rail','manual-pad','2-ft-transition','4-ft-transition','stairs']
 +++
 
 {{< photos >}}
