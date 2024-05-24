@@ -3,7 +3,7 @@ title = 'Lewiston'
 #date = 2023-10-02T17:21:47-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor']
-tags = ['lewiston','outdoor','concrete']
+tags = ['lewiston','outdoor','concrete','stairs']
 +++
 
 {{< photos >}}
@@ -20,5 +20,6 @@ This is a tiny skatepark with weird features. It's more like a skate spot. If it
 
 - banks
 - bump
-- stairs
+- 4-stair
+- 5-stair
 - square down rail
