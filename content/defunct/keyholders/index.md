@@ -1,5 +1,6 @@
 +++
 title = 'Keyholders'
+aliases = ['/skateparks/keyholders']
 # https://www.instagram.com/p/CxlDcijuIp6
 date = 2022-10-01T00:00:00-04:00
 featured_image = 'images/1.png'
@@ -15,16 +16,14 @@ tags = ['lackawanna','indoor','wood','vert','down-rail','hip','4-ft-transition',
 
 ## Description
 
+**Keyholders closed in April 2024.**
+
 Indoor skatepark with a vert ramp and a small street section.
-
-### Website
-
-[buffalokeyholders.com](https://buffalokeyholders.com/)
 
 ## Features
 
 - vert ramp
-- 4', 5' and 6' quarter pipes
+- 4' quarter pipes with 5' and 6' extensions
 - pyramid with ledge
 - down rail
 
