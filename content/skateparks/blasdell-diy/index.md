@@ -16,9 +16,9 @@ Telfer St, Blasdell, NY 14219
 
 DIY in Blasdell with boxes, rails, and some small transition elements.
 
-### March 2024 update
+### Summer 2024 update
 
-The pool coping on the larger box and steep ramp is gone. The ramp thresholds have chipped away and could use some maintenance.
+The pool coping on the larger box and steep ramp is gone. The ramp thresholds have chipped away and could use some maintenance. Moms Skateshop donated their Go Skate Day obstacles to the DIY (as they did in 2023).
 
 ## Features
 
