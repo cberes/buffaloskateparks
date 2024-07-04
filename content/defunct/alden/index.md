@@ -1,5 +1,6 @@
 +++
 title = 'Alden'
+aliases = ['/skateparks/alden']
 # https://aldenadvertisernews.com/skate-park-dedicated/
 date = 2017-09-10T00:00:00-04:00
 featured_image = 'images/1.jpg'
@@ -15,9 +16,9 @@ tags = ['alden','outdoor','asphalt','modular','box','hip','manual-pad','3-ft-tra
 
 ## Description
 
-Modular skatepark with an asphalt surface.
+In 2023 it was closed for maintenance. **As of summer 2024, pickleball courts have replaced the skatepark.**
 
-In 2023 it was closed to maintenance. Unsure of when or if it will reopen.
+Modular skatepark with an asphalt surface.
 
 ## Features
 
