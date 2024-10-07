@@ -1,6 +1,6 @@
 +++
 [cascade]
-  featured_image = '/skateparks/lasalle/images/1.jpg'
+  featured_image = '/images/feature.jpg'
 +++
 
 A comprehensive list of skateparks in and around Buffalo, New York.
