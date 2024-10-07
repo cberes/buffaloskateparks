@@ -14,7 +14,7 @@ Telfer St, Blasdell, NY 14219
 
 ## Description
 
-DIY in Blasdell with boxes, rails, and some small transition elements.
+DIY in Blasdell with an ever-changing mix of obstacles.
 
 ### Summer 2024 update
 
@@ -23,6 +23,7 @@ The pool coping on the larger box and steep ramp is gone. The ramp thresholds ha
 ## Features
 
 - boxes
-- flat rail
+- manual pad
 - small spine
-- small ramps
+- kicker
+- small, aggressive quarter pipe
