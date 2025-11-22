@@ -18,6 +18,10 @@ DIY in Buffalo's Outer Harbor. The surface is concrete, and the middle is slight
 
 There's another, smaller DIY down the road.
 
+### Summer 2025 update
+
+Moms Skateshop organized events to work on the DIY. They added new ledges and painted the obstacles. The tiny flat rail is gone.
+
 ### March 2024 update
 
 The DIY is in good shape. A new (unusually short) flat rail was installed (bolted to the concrete).
