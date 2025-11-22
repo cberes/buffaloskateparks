@@ -18,4 +18,3 @@ This project is deployed on each commit via GitHub Actions.
 
 - clean up page contents so summaries are more readable
 - categories: can I enable them?
-- need photos for Phatman and Empire
