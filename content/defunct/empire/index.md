@@ -1,5 +1,6 @@
 +++
 title = 'Empire'
+aliases = ['/skateparks/empire']
 # https://www.instagram.com/p/Cr6WOlMOAjC/
 date = 2023-05-07T12:00:00-04:00
 featured_image = 'images/1.jpg'
