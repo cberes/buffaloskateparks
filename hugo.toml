@@ -8,3 +8,9 @@ theme = 'ananke'
 customCss = ['css/hero.css', 'css/flickity.min.css', 'css/flickity-fullscreen.css', 'css/flickity.extra.css']
 customJs = ['js/flickity.pkgd.min.js', 'js/flickity-fullscreen.js']
 
+[module]
+[[module.imports]]
+disable = false
+ignoreConfig = false
+ignoreImports = false
+path = 'github.com/gohugo-ananke/ananke/v2'
