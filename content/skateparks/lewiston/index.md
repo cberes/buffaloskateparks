@@ -1,5 +1,7 @@
 +++
 title = 'Lewiston'
+latitude = 43.2034949
+longitude = -79.0419329
 #date = 2023-10-02T17:21:47-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor']

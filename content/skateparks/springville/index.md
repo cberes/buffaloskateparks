@@ -1,5 +1,7 @@
 +++
 title = 'Springville'
+latitude = 42.5103563
+longitude = -78.6664438
 # https://www.buffalorising.com/2022/05/springville-art-crawl-and-official-grand-opening-of-the-skatepark/
 date = 2022-06-04T15:00:00-04:00
 featured_image = 'images/1.jpg'

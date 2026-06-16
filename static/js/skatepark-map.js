@@ -140,7 +140,7 @@
 		const directionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(skatepark.address || `${skatepark.lat},${skatepark.lng}`)}`;
 
 		const popupPhoto = skatepark.photo
-			? `<div class="popup-photo"><img src="images/shops/${escapeHtml(skatepark.photo)}" alt="${escapeHtml(skatepark.title)}" loading="lazy" onerror="this.parentElement.style.display='none'"></div>`
+			? `<div class="popup-photo"><img src="${escapeHtml(skatepark.photo)}" alt="${escapeHtml(skatepark.title)}" loading="lazy" onerror="this.parentElement.style.display='none'"></div>`
 			: '';
 
 		return `
@@ -150,7 +150,9 @@
                 <strong class="popup-name">${escapeHtml(skatepark.title)}</strong>
                 <span class="popup-distance">${distanceDisplay} mi</span>
             </div>
-            <p class="popup-address">${escapeHtml(skatepark.address)}</p>
+            <p class="popup-address">
+              <a href="${escapeHtml(skatepark.permalink)}">View Skatepark</a>
+            </p>
             <div class="popup-details">
                 ${indoorBadge}
                 ${websiteLink}

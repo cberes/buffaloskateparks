@@ -1,5 +1,7 @@
 +++
 title = 'Fort Erie'
+latitude = 42.9039269
+longitude = -78.9763984
 #date = 2023-10-02T17:21:27-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor']

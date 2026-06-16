@@ -1,5 +1,7 @@
 +++
 title = 'Yates Park'
+latitude = 42.7593715
+longitude = -78.7530155
 #date = 2023-10-02T17:22:13-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor']

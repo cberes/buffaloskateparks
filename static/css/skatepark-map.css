@@ -28,6 +28,18 @@
 	background-color: #e94560;
 }
 
+.user-marker {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 24px;
+	height: 24px;
+	background-color: #171729;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	box-shadow: 0 2px 6px rgb(0 0 0 / 30%);
+}
+
 /* Map Popup */
 .map-popup {
 	min-width: 200px;

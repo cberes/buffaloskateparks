@@ -4,11 +4,21 @@
 [
   {{- range $index, $element := where .Site.RegularPages "Type" "skateparks" -}}
     {{- if $index }},{{ end -}}
+
+    {{- $imagePermalink := "" -}}
+    {{- with $element.Params.featured_image -}}
+      {{- with $element.Resources.GetMatch . -}}
+        {{- $imagePermalink = .Permalink -}}
+      {{- end -}}
+    {{- end -}}
+
     {
-      "title": {{ $element.Title | jsonify }},
-      "permalink": {{ $element.Permalink | jsonify }},
-      "lat": {{ $element.Params.latitude | jsonify }},
-      "lng": {{ $element.Params.longitude | jsonify }}
+      "title": {{ $element.Title }},
+      "permalink": {{ $element.Permalink }},
+      "photo": {{ $imagePermalink }},
+      "indoor": {{ if in $element.Params.categories "indoor" }}true{{ else }}false{{ end }},
+      "lat": {{ float $element.Params.latitude }},
+      "lng": {{ float $element.Params.longitude }}
     }
   {{- end -}}
 ]

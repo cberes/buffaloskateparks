@@ -1,5 +1,7 @@
 +++
 title = 'LaSalle'
+latitude = 42.8960927
+longitude = -78.8994252
 # https://www.wbfo.org/local/2013-07-24/city-opens-new-skate-plaza-at-lasalle-park
 date = 2013-07-24T00:00:00-04:00
 featured_image = 'images/1.jpg'

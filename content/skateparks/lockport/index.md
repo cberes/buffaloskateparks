@@ -1,6 +1,8 @@
 +++
 title = 'Lockport Railyard'
 aliases = ['/upcoming/lockport']
+latitude = 43.1777125
+longitude = -78.7101826
 # https://lockportny.gov/railyard-skatepark-opening-ceremony/
 date = 2024-04-20T12:00:00-04:00
 featured_image = 'images/1.jpg'

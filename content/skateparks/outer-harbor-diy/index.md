@@ -1,5 +1,7 @@
 +++
 title = 'Outer Harbor DIY'
+latitude = 42.8606423
+longitude = -78.8751904
 #date = 2023-10-02T17:20:19-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor']

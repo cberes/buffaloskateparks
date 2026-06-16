@@ -1,5 +1,7 @@
 +++
 title = 'Phatman'
+latitude = 42.9757944
+longitude = -78.8166374
 # https://web.archive.org/web/20190722144301/http://phatmanboardshop.com:80/the-bailey-project/
 date = 2019-07-22T00:00:00-04:00
 featured_image = 'images/1.jpg'

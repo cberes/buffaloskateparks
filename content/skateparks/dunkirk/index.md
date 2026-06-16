@@ -1,5 +1,7 @@
 +++
 title = 'Dunkirk'
+latitude = 42.4971494
+longitude = -79.3209144
 #date = 2023-10-02T17:21:33-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor']

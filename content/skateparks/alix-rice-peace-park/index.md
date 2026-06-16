@@ -1,5 +1,7 @@
 +++
 title = 'Alix Rice Peace Park'
+latitude = 42.9960267
+longitude = -78.7851987
 # https://www.wbfo.org/local/2018-08-03/alix-rice-skate-park-a-six-year-labor-of-love-opens-saturday
 date = 2018-08-04T00:00:00-04:00
 featured_image = 'images/1.jpg'

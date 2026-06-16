@@ -1,5 +1,7 @@
 +++
 title = 'Luke Nelson (Medina)'
+latitude = 43.2118422
+longitude = -78.3889549
 # https://www.lockportjournal.com/community/luke-nelson-skatepark-dedicated-in-medina/article_eeca968f-a326-5fa4-96b9-30f5bfe3187c.html
 date = 2021-09-04T00:00:00-04:00
 featured_image = 'images/1.jpg'
