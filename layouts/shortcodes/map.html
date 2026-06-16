@@ -1,1 +1,15 @@
-<iframe src="https://www.google.com/maps/d/embed?mid=1RotEmWZxFshlrSLDKYh_AZGBgt-UuOA&ehbc=2E312F&noprof=1" width="{{ (.Get "width") }}" height="{{ (.Get "height") }}"></iframe>
+<div id="skatepark-map" class="skatepark-map" width="{{ (.Get " width") }}" height="{{ (.Get " height") }}"></div>
+
+<script id="skatepark-map-data" type="application/json">
+[
+  {{- range $index, $element := where .Site.RegularPages "Type" "skateparks" -}}
+    {{- if $index }},{{ end -}}
+    {
+      "title": {{ $element.Title | jsonify }},
+      "permalink": {{ $element.Permalink | jsonify }},
+      "lat": {{ $element.Params.latitude | jsonify }},
+      "lng": {{ $element.Params.longitude | jsonify }}
+    }
+  {{- end -}}
+]
+</script>

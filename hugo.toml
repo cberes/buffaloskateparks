@@ -1,12 +1,12 @@
 baseURL = 'https://skatebuffalo.com/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'Skate Buffalo'
 copyright = 'Corey Beres'
 theme = 'ananke'
 
 [params]
-customCss = ['css/hero.css', 'css/flickity.min.css', 'css/flickity-fullscreen.css', 'css/flickity.extra.css']
-customJs = ['js/flickity.pkgd.min.js', 'js/flickity-fullscreen.js']
+customCss = ['css/hero.css', 'css/flickity.min.css', 'css/flickity-fullscreen.css', 'css/flickity.extra.css', 'css/leaflet.css', 'css/skatepark-map.css']
+customJs = ['js/flickity.pkgd.min.js', 'js/flickity-fullscreen.js', 'js/leaflet.js', 'js/skatepark-map.js']
 
 [module]
 [[module.imports]]
