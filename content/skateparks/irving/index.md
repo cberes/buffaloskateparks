@@ -1,5 +1,6 @@
 +++
 title = 'Irving'
+aliases = ['/upcoming/irving']
 latitude = 42.5426046
 longitude = -79.0055581
 date = 2026-06-01T12:00:00-04:00
