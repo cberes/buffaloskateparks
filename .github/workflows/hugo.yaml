@@ -37,6 +37,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
+      - name: Download dependencies
+        run: ./download-deps static
+
       - name: Setup Go
         uses: actions/setup-go@v6
         with:

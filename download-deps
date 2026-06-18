@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+
+readonly output_dir="${1?Output directory required}"
+mkdir -p $output_dir/css
+mkdir -p $output_dir/images
+mkdir -p $output_dir/js
+
+# work in a temporary folder
+mkdir downloads
+cd downloads
+
+# leaflet
+curl -OL https://github.com/Leaflet/Leaflet/releases/download/v1.9.4/leaflet.zip
+unzip leaflet.zip -d leaflet
+mv leaflet/dist/images/* ../$output_dir/images/
+mv leaflet/dist/leaflet.js ../$output_dir/js/
+mv leaflet/dist/leaflet.css ../$output_dir/css/
+
+# flickity
+curl -OL https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js
+curl -OL https://unpkg.com/flickity@2/dist/flickity.css
+mv flickity.pkgd.min.js ../$output_dir/js/
+mv flickity.css ../$output_dir/css/
+
+# flickity fullscreen
+# try out v2: https://github.com/metafizzy/flickity-fullscreen/archive/refs/tags/v2.0.0.zip
+curl -OL https://github.com/metafizzy/flickity-fullscreen/archive/refs/tags/v1.1.1.zip
+unzip v1.1.1.zip -d flickity
+mv flickity/flickity-fullscreen-1.1.1/fullscreen.js ../$output_dir/js/flickity-fullscreen.js
+mv flickity/flickity-fullscreen-1.1.1/fullscreen.css ../$output_dir/css/flickity-fullscreen.css
+
+# clean up
+cd ..
+rm -fr downloads

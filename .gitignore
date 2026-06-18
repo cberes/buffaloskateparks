@@ -11,3 +11,6 @@ hugo.linux
 
 # Temporary lock file while building
 /.hugo_build.lock
+
+# external dependencies are downloaded to static/
+static/
