@@ -5,7 +5,7 @@ copyright = 'Corey Beres'
 theme = ['github.com/gohugo-ananke/ananke/v2']
 
 [params]
-customCss = ['css/hero.css', 'css/flickity.min.css', 'vendor/css/flickity-fullscreen.css', 'css/flickity.extra.css', 'vendor/css/leaflet.css', 'css/skatepark-map.css']
+customCss = ['css/hero.css', 'vendor/css/flickity.css', 'vendor/css/flickity-fullscreen.css', 'css/flickity.extra.css', 'vendor/css/leaflet.css', 'css/skatepark-map.css']
 customJs = ['vendor/js/flickity.pkgd.min.js', 'vendor/js/flickity-fullscreen.js', 'vendor/js/leaflet.js', 'js/skatepark-map.js']
 
 [module]
