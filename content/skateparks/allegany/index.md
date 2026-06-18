@@ -1,5 +1,5 @@
 +++
-title = 'Allegany River Park'
+title = 'Allegany'
 latitude = 42.090834
 longitude = -78.500356
 # https://enchantedmountains.com/event/2024/allegany-river-skate-park-grand-opening-1051
