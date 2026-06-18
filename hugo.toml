@@ -2,7 +2,7 @@ baseURL = 'https://skatebuffalo.com/'
 locale = 'en-us'
 title = 'Skate Buffalo'
 copyright = 'Corey Beres'
-theme = 'ananke'
+theme = ['github.com/gohugo-ananke/ananke/v2']
 
 [params]
 customCss = ['css/hero.css', 'css/flickity.min.css', 'css/flickity-fullscreen.css', 'css/flickity.extra.css', 'css/leaflet.css', 'css/skatepark-map.css']

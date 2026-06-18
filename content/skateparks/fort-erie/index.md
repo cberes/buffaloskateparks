@@ -2,9 +2,8 @@
 title = 'Fort Erie'
 latitude = 42.9039269
 longitude = -78.9763984
-#date = 2023-10-02T17:21:27-04:00
 featured_image = 'images/1.jpg'
-categories = ['outdoor']
+categories = ['outdoor', 'ontario']
 tags = ['fort-erie','outdoor','concrete','flat-rail','down-rail','box','a-frame','hip','bowl','3-ft-transition','4-ft-transition']
 +++
 
@@ -22,7 +21,7 @@ Fort Erie provides a [live stream](https://www.forterie.ca/en/recreation-and-cul
 
 ## Features
 
-- bowl
+- bowl (6 feet deep)
 - 3' and 4' quarter pipes
 - boxes
 - A-frame

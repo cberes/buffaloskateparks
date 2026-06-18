@@ -5,7 +5,7 @@ longitude = -78.7851987
 # https://www.wbfo.org/local/2018-08-03/alix-rice-skate-park-a-six-year-labor-of-love-opens-saturday
 date = 2018-08-04T00:00:00-04:00
 featured_image = 'images/1.jpg'
-categories = ['outdoor']
+categories = ['outdoor', 'new york']
 tags = ['amherst','outdoor','concrete','illuminated','bowl','box','down-rail','manual-pad','2-ft-transition','4-ft-transition','stairs']
 +++
 

@@ -16,7 +16,7 @@
       "title": {{ $element.Title }},
       "permalink": {{ $element.Permalink }},
       "photo": {{ $imagePermalink }},
-      "indoor": {{ if in $element.Params.categories "indoor" }}true{{ else }}false{{ end }},
+      "categories": {{ $element.Params.categories }},
       "lat": {{ float $element.Params.latitude }},
       "lng": {{ float $element.Params.longitude }}
     }

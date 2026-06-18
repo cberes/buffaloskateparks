@@ -5,7 +5,7 @@ longitude = -78.6649256
 # https://buffalonews.com/news/local/skate-park-honoring-lancaster-teen-set-to-open/article_de962f98-f760-5eed-b069-d55c02269de1.html
 date = 2014-09-28T12:00:00-04:00
 featured_image = 'images/1.jpg'
-categories = ['outdoor']
+categories = ['outdoor', 'new york']
 tags = ['lancaster','outdoor','concrete','box','flat-rail','down-rail','a-frame','3-ft-transition','4-ft-transition','stairs']
 +++
 

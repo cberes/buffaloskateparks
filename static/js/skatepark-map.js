@@ -49,12 +49,23 @@
 				return;
 			}
 
-			const markerClass = skatepark.indoor
-				? 'shop-marker shop-marker-indoor'
-				: 'shop-marker';
+			skatepark.indoor = (skatepark.categories || []).includes('indoor');
+			skatepark.newYork = (skatepark.categories || []).includes('new york');
+			skatepark.ontario = (skatepark.categories || []).includes('ontario');
+
+			const markerClasses = ['shop-marker'];
+			if (skatepark.indoor) {
+				markerClasses.push('shop-marker-indoor');
+			}
+			if (skatepark.newYork) {
+				markerClasses.push('shop-marker-new-york');
+			}
+			if (skatepark.ontario) {
+				markerClasses.push('shop-marker-ontario');
+			}
 
 			const shopIcon = L.divIcon({
-				className: markerClass,
+				className: markerClasses.join(' '),
 				iconSize: [28, 28],
 				iconAnchor: [14, 14],
 			});
@@ -182,7 +193,7 @@
 		const mapElement = d.getElementById('skatepark-map');
 		const dataElement = d.getElementById('skatepark-map-data');
 		if (dataElement) {
-			const skateparks = JSON.parse(dataElement.textContent);
+			const skateparks = JSON.parse(dataElement.textContent).reverse();
 			const mapCenter = [42.8864, -78.8784];
 			updateMapMarkers(mapElement, skateparks, mapCenter[0], mapCenter[1]);
 		}

@@ -15,7 +15,6 @@ title = 'Map'
 | [Jaded](https://www.facebook.com/jadedskate/)     | Brockport     |                     |
 | [Jamestown](http://jamestownskateproducts.com/)   | Jamestown     | Yes                 |
 | [Krudco](https://www.krudco.com/)                 | Rochester     |                     |
-| [Moms](http://momsskateshop.com/)                 | Buffalo       |                     |
 | [Old Skull](https://www.oldskullskateboards.com/) | Penfield      |                     |
 | [Pastime](https://pastimeskateshop.com/)          | Rochester     |                     |
 | [Phatman](http://www.phatmanboardshop.com/)       | Amherst       | Yes                 |

@@ -5,7 +5,7 @@ latitude = 42.7507288
 longitude = -78.833142
 date = 2024-10-06T12:00:00-04:00
 featured_image = 'images/1.jpg'
-categories = ['outdoor']
+categories = ['outdoor', 'new york']
 tags = ['hamburg','outdoor','concrete','box','hip','manual-pad','flat-rail','box-jump','4-ft-transition']
 +++
 

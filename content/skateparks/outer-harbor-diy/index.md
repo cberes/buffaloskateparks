@@ -4,7 +4,7 @@ latitude = 42.8606423
 longitude = -78.8751904
 #date = 2023-10-02T17:20:19-04:00
 featured_image = 'images/1.jpg'
-categories = ['outdoor']
+categories = ['outdoor', 'new york']
 tags = ['buffalo','outdoor','concrete','diy','box','flat-rail','3-ft-transition']
 +++
 
