@@ -17,7 +17,10 @@ tags = ['hamburg','indoor','wood','bowl','box','flat-rail','down-rail','a-frame'
 
 ## Description
 
-Indoor skatepark inside the McKinley Mall. One of the best and largest skateparks in the area. Only indoor skatepark in the area with a bowl.
+Indoor skatepark inside the McKinley Mall.
+One of the best and largest skateparks in the area.
+There's an entrance in the back of the mall, which is available even when the mall's closed.
+The back entrance leads directly to the attached skateshop.
 
 ### Website
 
