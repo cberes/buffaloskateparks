@@ -1,4 +1,4 @@
-all: dev
+all: serve
 
-dev:
+serve:
 	hugo server -D
