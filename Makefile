@@ -4,4 +4,4 @@ serve:
 	hugo server -D
 
 deps:
-	./download-deps static
+	./download-deps static/vendor

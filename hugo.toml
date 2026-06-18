@@ -5,8 +5,8 @@ copyright = 'Corey Beres'
 theme = ['github.com/gohugo-ananke/ananke/v2']
 
 [params]
-customCss = ['css/hero.css', 'css/flickity.min.css', 'css/flickity-fullscreen.css', 'css/flickity.extra.css', 'css/leaflet.css', 'css/skatepark-map.css']
-customJs = ['js/flickity.pkgd.min.js', 'js/flickity-fullscreen.js', 'js/leaflet.js', 'js/skatepark-map.js']
+customCss = ['css/hero.css', 'css/flickity.min.css', 'vendor/css/flickity-fullscreen.css', 'css/flickity.extra.css', 'vendor/css/leaflet.css', 'css/skatepark-map.css']
+customJs = ['vendor/js/flickity.pkgd.min.js', 'vendor/js/flickity-fullscreen.js', 'vendor/js/leaflet.js', 'js/skatepark-map.js']
 
 [module]
 [[module.imports]]
@@ -14,3 +14,11 @@ disable = false
 ignoreConfig = false
 ignoreImports = false
 path = 'github.com/gohugo-ananke/ananke/v2'
+
+[[module.mounts]]
+  source = 'static'
+  target = 'static'
+
+[[module.mounts]]
+  source = 'static/vendor/images'
+  target = 'static/images'
