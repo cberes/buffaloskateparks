@@ -1,5 +1,6 @@
 +++
-title = 'Hyde Park'
+title = 'Niagara Falls'
+aliases = ['/skateparks/hyde-park']
 latitude = 43.097288
 longitude = -79.029467
 # https://ny1.com/nyc/all-boroughs/news/2016/10/6/niagara-falls-new-skate-park
@@ -17,7 +18,7 @@ tags = ['niagara-falls','outdoor','concrete','box','a-frame','hip','flat-rail','
 
 ## Description
 
-This would be a great skatepark, but the concrete needs some maintenance. The miniramp is unusable (for skateboards anyway).
+This would be a great skatepark, but the concrete needs some maintenance.
 
 ### Parking
 
