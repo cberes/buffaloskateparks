@@ -1,5 +1,6 @@
 +++
-title = 'Gregory Hayes Holler (Ives Park)'
+title = 'Gregory Hayes Holler (Tonawanda)'
+aliases = ['/skateparks/ives-park']
 latitude = 43.0090165
 longitude = -78.8739622
 # https://www.concretedisciples.com/global-skatepark-directory/usa-skateparks-guide/new-york/gregory-hayes-holler-community-skate-park-tonawanda/
@@ -13,7 +14,7 @@ tags = ['tonawanda','outdoor','concrete','box','down-rail','3-ft-transition']
 
 ## Location
 
-209 York St, Tonawanda, NY 14150
+Ives Park, 209 York St, Tonawanda, NY 14150
 
 ## Description
 
