@@ -1,5 +1,6 @@
 +++
-title = 'Yates Park'
+title = 'Orchard Park'
+aliases = ['/skateparks/yates-park']
 latitude = 42.7593715
 longitude = -78.7530155
 #date = 2023-10-02T17:22:13-04:00
@@ -12,7 +13,7 @@ tags = ['orchard-park','outdoor','asphalt','modular','box','flat-rail','3-ft-tra
 
 ## Location
 
-200 N Lake Dr, Orchard Park, NY 14127
+Yates Park, 200 N Lake Dr, Orchard Park, NY 14127
 
 ## Description
 
