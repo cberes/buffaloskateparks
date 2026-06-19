@@ -14,7 +14,7 @@ tags = ['niagara-falls','outdoor','concrete','box','a-frame','hip','flat-rail','
 
 ## Location
 
-898 Hyde Park Blvd, Niagara Falls, NY 14301
+Hyde Park, 898 Hyde Park Blvd, Niagara Falls, NY 14301
 
 ## Description
 
