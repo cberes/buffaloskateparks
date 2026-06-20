@@ -5,7 +5,7 @@ longitude = -78.8318199
 #date = 2023-10-02T17:20:11-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor', 'new york']
-tags = ['blasdell','outdoor','asphalt','hamburg','diy','box','flat-rail']
+tags = ['blasdell','buffalo-niagara','outdoor','asphalt','hamburg','diy','box','flat-rail']
 +++
 
 {{< photos >}}

@@ -7,7 +7,7 @@ longitude = -79.029467
 date = 2016-10-06T00:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor', 'new york']
-tags = ['niagara-falls','outdoor','concrete','box','a-frame','hip','flat-rail','down-rail','manual-pad','4-ft-transition','5-ft-transition']
+tags = ['niagara-falls','buffalo-niagara','outdoor','concrete','box','a-frame','hip','flat-rail','down-rail','manual-pad','4-ft-transition','5-ft-transition']
 +++
 
 {{< photos >}}

@@ -6,7 +6,7 @@ longitude = -78.8166374
 date = 2019-07-22T00:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['indoor', 'new york']
-tags = ['amherst','indoor','concrete','3-ft-transition']
+tags = ['amherst','buffalo-niagara','indoor','concrete','3-ft-transition']
 +++
 
 {{< photos >}}

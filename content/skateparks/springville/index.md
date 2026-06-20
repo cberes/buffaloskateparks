@@ -6,7 +6,7 @@ longitude = -78.6664438
 date = 2022-06-04T15:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor', 'new york']
-tags = ['springville','outdoor','concrete','illuminated','box','a-frame','hip','flat-rail','manual-pad','3-ft-transition','4-ft-transition','5-ft-transition','spine']
+tags = ['springville','buffalo-niagara','outdoor','concrete','illuminated','box','a-frame','hip','flat-rail','manual-pad','3-ft-transition','4-ft-transition','5-ft-transition','spine']
 +++
 
 {{< photos >}}

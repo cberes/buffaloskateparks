@@ -6,7 +6,7 @@ longitude = -78.8994252
 date = 2013-07-24T00:00:00-04:00
 featured_image = 'images/01.jpg'
 categories = ['outdoor', 'new york']
-tags = ['buffalo','outdoor','concrete','box','flat-rail','down-rail','a-frame','hip','bowl','manual-pad','2-ft-transition','3-ft-transition','4-ft-transition','stairs']
+tags = ['buffalo','buffalo-niagara','outdoor','concrete','box','flat-rail','down-rail','a-frame','hip','bowl','manual-pad','2-ft-transition','3-ft-transition','4-ft-transition','stairs']
 +++
 
 {{< photos >}}

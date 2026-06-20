@@ -7,7 +7,7 @@ longitude = -78.8739622
 date = 2011-05-24T00:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor', 'new york']
-tags = ['tonawanda','outdoor','concrete','box','down-rail','3-ft-transition']
+tags = ['tonawanda','buffalo-niagara','outdoor','concrete','box','down-rail','3-ft-transition']
 +++
 
 {{< photos >}}
