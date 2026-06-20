@@ -9,7 +9,7 @@ Information about skateparks in and around Buffalo, New York. Available at [skat
 ## Development
 
 1. Download dependencies: `make deps`
-2. Run hugo `make serve`
+2. Run hugo: `make serve`
 
 ## Deployment
 
