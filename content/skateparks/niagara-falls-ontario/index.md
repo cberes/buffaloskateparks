@@ -2,10 +2,11 @@
 title = 'MacBain (Niagara Falls)'
 latitude = 43.0730657
 longitude = -79.1272481
-#date = 2023-10-02T17:21:27-04:00
+# https://www.historicniagara.ca/s/All/item/243656
+date = 2005-06-18T12:00:00-04:00
 featured_image = 'images/01.jpg'
 categories = ['outdoor', 'ontario']
-tags = ['niagara-falls-on','outdoor','concrete','flat-rail','box','manual-pad','a-frame','hip','4-ft-transition']
+tags = ['niagara-falls-on','outdoor','concrete','flat-rail','down-rail','box','manual-pad','hip','stairs','spine','5-ft-transition','6-ft-transition']
 +++
 
 {{< photos >}}
@@ -16,13 +17,21 @@ tags = ['niagara-falls-on','outdoor','concrete','flat-rail','box','manual-pad','
 
 ## Description
 
-TODO
+Aging skatepark with lots of banks, rails, and boxes.
+One corner has a 3-block and stair sets but not much in terms of run-up.
+There's about 80% of a bowl.
 
 ## Features
 
-- 4' quarter pipes
-- A-frame with rail and ledges
-- hip
-- box
+- 5' quarter pipes
+- 5' spine
+- 6' quarter pipe corner
+- hips
 - manual pad
-- flat rail
+- boxes
+- flat rails
+- down rails
+- down ledges
+- euro gap
+- 8-stair
+- 6-stair
