@@ -1,6 +1,6 @@
 # Buffalo Skateparks
 
-Information about skateparks in and around Buffalo, New York.
+Information about skateparks in and around Buffalo, New York. Available at [skatebuffalo.com](https://skatebuffalo.com/).
 
 ## Requirements
 
@@ -8,13 +8,10 @@ Information about skateparks in and around Buffalo, New York.
 
 ## Development
 
-    hugo server -D
+1. Download dependencies: `make deps`
+2. Run hugo `make serve`
 
 ## Deployment
 
 This project is deployed on each commit via GitHub Actions.
 
-## To do
-
-- clean up page contents so summaries are more readable
-- categories: can I enable them?

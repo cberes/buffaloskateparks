@@ -13,4 +13,4 @@ hugo.linux
 /.hugo_build.lock
 
 # external dependencies are downloaded to static/vendor/
-static/vendor/
+/static/vendor/
