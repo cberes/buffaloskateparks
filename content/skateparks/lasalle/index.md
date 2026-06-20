@@ -27,7 +27,7 @@ People like to park nearby and show off how loud their cars' sound systems are.
 
 - bowl
 - 2', 3', and 4' quarter pipes
-- pyramid with ledge
+- pyramid with ledge and pole jam
 - flat rail
 - down rails
 - 6-stair with rail and hubba
