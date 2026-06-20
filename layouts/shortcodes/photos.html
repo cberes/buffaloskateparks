@@ -8,3 +8,10 @@
   </div>
 {{-  end -}}
 
+{{- with .Page.Params.featured_image -}}
+  {{- with $.Page.Resources.GetMatch . -}}
+    <div class="summary-featured-image">
+      <img src="{{- .Permalink -}}" alt="{{- $.Page.Title }} feature image"/>
+    </div>
+  {{- end -}}
+{{- end -}}

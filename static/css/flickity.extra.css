@@ -26,3 +26,13 @@ article[class^="page-"] .main-carousel,
 article[class*=" page-"] .main-carousel {
   display: block;
 }
+
+/* Hide the featured image by default (home page, main page) */
+.summary-featured-image {
+  display: none;
+}
+
+/* Show the featured image on list page */
+section.flex-ns .summary-featured-image {
+  display: block;
+}
