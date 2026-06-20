@@ -15,3 +15,14 @@
   height: auto;
   max-height: 100%;
 }
+
+/* Hide the carousel by default (e.g., on list pages, summaries, etc.) */
+.main-carousel {
+  display: none;
+}
+
+/* Show the carousel ONLY if it is inside an article whose class starts with "page-" */
+article[class^="page-"] .main-carousel,
+article[class*=" page-"] .main-carousel {
+  display: block;
+}
