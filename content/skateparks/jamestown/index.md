@@ -5,7 +5,7 @@ longitude = -79.2556633
 date = 2022-10-03T12:00:00-04:00
 featured_image = 'images/01.jpg'
 categories = ['outdoor', 'new york']
-tags = ['jamestown','outdoor','concrete','box','manual-pad','flat-rail','down-rail','a-frame','hip','stairs','bowl','3-ft-transition', '4-ft-transition', '5-ft-transition','6-ft-transition', '7-ft-transition', '8-ft-transition']
+tags = ['jamestown','southern-tier','outdoor','concrete','box','manual-pad','flat-rail','down-rail','a-frame','hip','stairs','bowl','3-ft-transition', '4-ft-transition', '5-ft-transition','6-ft-transition', '7-ft-transition', '8-ft-transition']
 +++
 
 {{< photos >}}

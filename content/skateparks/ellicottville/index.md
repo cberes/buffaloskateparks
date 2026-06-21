@@ -6,7 +6,7 @@ longitude = -78.6750497
 date = 2023-06-30T00:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor', 'new york']
-tags = ['ellicottville','outdoor','concrete','bowl','flat-rail','box','hip','manual-pad','4-ft-transition']
+tags = ['ellicottville','southern-tier','outdoor','concrete','bowl','flat-rail','box','hip','manual-pad','4-ft-transition']
 +++
 
 {{< photos >}}

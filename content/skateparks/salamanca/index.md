@@ -5,7 +5,7 @@ longitude = -78.7211637
 date = 2026-06-01T12:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor', 'new york']
-tags = ['salamanca','outdoor','concrete','box','manual-pad','flat-rail','3-ft-transition']
+tags = ['salamanca','southern-tier','outdoor','concrete','box','manual-pad','flat-rail','3-ft-transition']
 +++
 
 {{< photos >}}
