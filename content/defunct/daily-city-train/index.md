@@ -16,6 +16,8 @@ tags = ['ellicottville','indoor','wood','down-rail','box','hip','4-ft-transition
 
 ## Description
 
+**The store and skatepark closed in fall 2025.**
+
 Indoor skatepark with attached skateshop in Ellicottville.
 
 ### Website
