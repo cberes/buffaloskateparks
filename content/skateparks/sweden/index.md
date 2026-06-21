@@ -20,6 +20,10 @@ Sweden Town Park, 4745 Redman Rd, Brockport, NY 14420
 Located near the village of Brockport.
 This concrete skatepark replaced the town's old, modular skatepark.
 
+### Bathrooms
+
+There are bathrooms in the park.
+
 ## Features
 
 - bowl
