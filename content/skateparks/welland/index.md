@@ -5,7 +5,7 @@ longitude = -79.2554399
 date = 2018-05-01T12:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor', 'ontario']
-tags = ['welland','outdoor','concrete','flat-rail','down-rai','box','bowl','hip','volcano','2-ft-transition','3-ft-transition','4-ft-transition']
+tags = ['welland','niagara-peninsula','outdoor','concrete','flat-rail','down-rai','box','bowl','hip','volcano','2-ft-transition','3-ft-transition','4-ft-transition']
 +++
 
 {{< photos >}}

@@ -4,7 +4,7 @@ latitude = 43.1562664
 longitude = -79.2291789
 featured_image = 'images/1.jpg'
 categories = ['outdoor', 'ontario']
-tags = ['st-catharines','outdoor','concrete','diy','box','3-ft-transition','4-ft-transition']
+tags = ['st-catharines','niagara-peninsula','outdoor','concrete','diy','box','3-ft-transition','4-ft-transition']
 +++
 
 {{< photos >}}

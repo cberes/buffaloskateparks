@@ -6,7 +6,7 @@ longitude = -79.1272481
 date = 2005-06-18T12:00:00-04:00
 featured_image = 'images/01.jpg'
 categories = ['outdoor', 'ontario']
-tags = ['niagara-falls-on','outdoor','concrete','flat-rail','down-rail','box','manual-pad','hip','stairs','spine','5-ft-transition','6-ft-transition']
+tags = ['niagara-falls-on','niagara-peninsula','outdoor','concrete','flat-rail','down-rail','box','manual-pad','hip','stairs','spine','5-ft-transition','6-ft-transition']
 +++
 
 {{< photos >}}

@@ -6,7 +6,7 @@ longitude = -79.1193748
 date = 2020-09-23T12:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor', 'ontario']
-tags = ['virgil','outdoor','concrete','flat-rail','box','a-frame','3-ft-transition','4-ft-transition','6-ft-transition']
+tags = ['virgil','niagara-peninsula','outdoor','concrete','flat-rail','box','a-frame','3-ft-transition','4-ft-transition','6-ft-transition']
 +++
 
 {{< photos >}}

@@ -6,7 +6,7 @@ longitude = -78.3889549
 date = 2021-09-04T00:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor', 'new york']
-tags = ['medina','outdoor','concrete','illuminated','box','flat-rail','down-rail','bowl','a-frame','manual-pad','2-ft-transition','3-ft-transition','4-ft-transition','stairs']
+tags = ['medina','greater-rochester','outdoor','concrete','illuminated','box','flat-rail','down-rail','bowl','a-frame','manual-pad','2-ft-transition','3-ft-transition','4-ft-transition','stairs']
 +++
 
 

@@ -5,7 +5,7 @@ longitude = -79.3144079
 date = 2014-01-01T12:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor', 'ontario']
-tags = ['pelham','outdoor','concrete','flat-rail','down-rail','box','manual-pad','hip','volcano','4-ft-transition','5-ft-transition']
+tags = ['pelham','niagara-peninsula','outdoor','concrete','flat-rail','down-rail','box','manual-pad','hip','volcano','4-ft-transition','5-ft-transition']
 +++
 
 {{< photos >}}

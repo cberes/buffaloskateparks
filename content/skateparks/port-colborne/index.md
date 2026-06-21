@@ -5,7 +5,7 @@ longitude = -79.2498116
 date = 2013-06-23T12:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor', 'ontario']
-tags = ['port-colborne','outdoor','concrete','flat-rail','down-rail','box','manual-pad','hip','stairs','2-ft-transition','4-ft-transition','6-ft-transition','8-ft-transition']
+tags = ['port-colborne','niagara-peninsula','outdoor','concrete','flat-rail','down-rail','box','manual-pad','hip','stairs','2-ft-transition','4-ft-transition','6-ft-transition','8-ft-transition']
 +++
 
 {{< photos >}}

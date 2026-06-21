@@ -4,7 +4,7 @@ latitude = 43.1031434
 longitude = -79.1949642
 featured_image = 'images/1.jpg'
 categories = ['outdoor', 'ontario']
-tags = ['thorold','outdoor','concrete','flat-rail','box','hip','volcano','stairs','4-ft-transition']
+tags = ['thorold','niagara-peninsula','outdoor','concrete','flat-rail','box','hip','volcano','stairs','4-ft-transition']
 +++
 
 {{< photos >}}

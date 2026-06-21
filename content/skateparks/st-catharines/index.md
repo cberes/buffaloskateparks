@@ -5,7 +5,7 @@ longitude = -79.265698
 date = 2005-01-01T12:00:00-04:00
 featured_image = 'images/01.jpg'
 categories = ['outdoor', 'ontario']
-tags = ['st-catharines','outdoor','concrete','flat-rail','down-rail','box','manual-pad','hip','stairs','3-ft-transition','6-ft-transition']
+tags = ['st-catharines','niagara-peninsula','outdoor','concrete','flat-rail','down-rail','box','manual-pad','hip','stairs','3-ft-transition','6-ft-transition']
 +++
 
 {{< photos >}}
