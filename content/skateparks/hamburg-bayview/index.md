@@ -18,7 +18,7 @@ Bayview Rd, Hamburg, NY 14219
 
 Modular ramps on a rough asphalt surface. The ramps are in bad shape.
 
-Hamburg's new [concrete skatepark](/skateparks/hamburg) will open soon.
+Hamburg's new [concrete skatepark](/skateparks/hamburg) has opened.
 
 ## Features
 
