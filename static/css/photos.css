@@ -22,14 +22,19 @@
 }
 
 /* Show the carousel ONLY if it is inside an article whose class starts with "page-" */
-article[class^="page-"] .main-carousel,
-article[class*=" page-"] .main-carousel {
-  display: block;
+@media (scripting: enabled) {
+
+  article[class^="page-"] .main-carousel,
+  article[class*=" page-"] .main-carousel {
+    display: block;
+  }
 }
 
 /* Hide the featured image by default (home page, main page) */
-.summary-featured-image {
-  display: none;
+@media (scripting: enabled) {
+  .summary-featured-image {
+    display: none;
+  }
 }
 
 /* Show the featured image on list page */
