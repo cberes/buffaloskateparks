@@ -5,7 +5,7 @@ aliases = ['/skateparks/alden']
 date = 2017-09-10T00:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor']
-tags = ['alden','outdoor','asphalt','modular','box','hip','manual-pad','3-ft-transition','4-ft-transition']
+#tags = ['alden','outdoor','asphalt','modular','box','hip','manual-pad','3-ft-transition','4-ft-transition']
 +++
 
 {{< photos >}}

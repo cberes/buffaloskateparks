@@ -5,7 +5,7 @@ aliases = ['/skateparks/keyholders']
 date = 2022-10-01T00:00:00-04:00
 featured_image = 'images/1.png'
 categories = ['indoor']
-tags = ['lackawanna','indoor','wood','vert','down-rail','hip','4-ft-transition','5-ft-transition','6-ft-transition']
+#tags = ['lackawanna','indoor','wood','vert','down-rail','hip','4-ft-transition','5-ft-transition','6-ft-transition']
 +++
 
 {{< photos >}}

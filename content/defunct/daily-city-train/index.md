@@ -5,7 +5,7 @@ aliases = ['/skateparks/daily-city-train']
 date = 2023-08-19T12:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['indoor']
-tags = ['ellicottville','indoor','wood','down-rail','box','hip','4-ft-transition']
+#tags = ['ellicottville','indoor','wood','down-rail','box','hip','4-ft-transition']
 +++
 
 {{< photos >}}

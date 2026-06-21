@@ -5,7 +5,7 @@ aliases = ['/skateparks/empire']
 date = 2023-05-07T12:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['indoor']
-tags = ['niagara-falls','indoor','concrete']
+#tags = ['niagara-falls','indoor','concrete']
 +++
 <!--
 {{< photos >}}
@@ -15,6 +15,8 @@ tags = ['niagara-falls','indoor','concrete']
 2035 River Rd, Niagara Falls, NY 14304
 
 ## Description
+
+**Empire Boardshop is now closed.**
 
 The skateshop contains a small, indoor skatepark. There's a miniramp, a rail, and additional ramps.
 
