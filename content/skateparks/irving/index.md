@@ -6,7 +6,7 @@ longitude = -79.0055581
 date = 2026-06-01T12:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor', 'new york']
-tags = ['irving','southern-tier','outdoor','concrete','box','manual-pad','hip','flat-rail','3-ft-transition','6-ft-transition']
+tags = ['irving','buffalo-niagara','outdoor','concrete','box','manual-pad','hip','flat-rail','3-ft-transition','6-ft-transition']
 +++
 
 {{< photos >}}
