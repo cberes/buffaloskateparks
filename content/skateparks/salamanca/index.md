@@ -23,4 +23,4 @@ Tiny skatepark. Opened in spring 2026.
 - 3' quarter pipes, 4' extension
 - box
 - flat rail
-- manual
+- manual pad
