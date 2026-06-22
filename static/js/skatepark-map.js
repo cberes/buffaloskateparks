@@ -1,4 +1,5 @@
 (function(d) {
+	const EARTH_RADIUS_MILES = 3959;
 	let map = null;
 	let markersLayer = null;
 
@@ -21,6 +22,28 @@
 		markersLayer = L.layerGroup().addTo(map);
 	}
 
+	function addSkateparkMarker(markersLayer, skatepark, className) {
+		const popup = createMapPopupHTML(skatepark);
+		addMarker(markersLayer, [skatepark.lat, skatepark.lng], 28, className, popup);
+	}
+
+	function addUserMarker(markersLayer, coords) {
+		const popup = '<div class="map-popup"><strong>Your Location</strong></div>';
+		addMarker(markersLayer, coords, 24, 'user-marker', popup);
+	}
+
+	function addMarker(markersLayer, coords, size, className, popup) {
+		const icon = L.divIcon({
+			className,
+			iconSize: [size, size],
+			iconAnchor: [size / 2, size / 2],
+		});
+
+		L.marker(coords, { icon })
+			.addTo(markersLayer)
+			.bindPopup(popup);
+	}
+
 	function updateMapMarkers(skateparkMap, skateparks, userLat, userLng) {
 		// Initialize map if needed
 		if (!map) {
@@ -32,26 +55,20 @@
 
 		// Add user location marker
 		if (userLat && userLng) {
-			const userIcon = L.divIcon({
-				className: 'user-marker',
-				iconSize: [24, 24],
-				iconAnchor: [12, 12],
-			});
-
-			L.marker([userLat, userLng], { icon: userIcon })
-				.addTo(markersLayer)
-				.bindPopup('<div class="map-popup"><strong>Your Location</strong></div>');
+			// addUserMarker(markersLayer, [userLat, userLng]);
 		}
 
-		// Add shop markers
+		// Add skatepark markers
 		skateparks.forEach((skatepark) => {
 			if (!isSkateparkValid(skatepark)) {
 				return;
 			}
 
+			// TODO: really this part should moved outside this function
 			skatepark.indoor = (skatepark.categories || []).includes('indoor');
 			skatepark.newYork = (skatepark.categories || []).includes('new york');
 			skatepark.ontario = (skatepark.categories || []).includes('ontario');
+			skatepark.distance = calculateDistance(userLat, userLng, skatepark.lat, skatepark.lng);
 
 			const markerClasses = ['shop-marker'];
 			if (skatepark.indoor) {
@@ -64,15 +81,7 @@
 				markerClasses.push('shop-marker-ontario');
 			}
 
-			const shopIcon = L.divIcon({
-				className: markerClasses.join(' '),
-				iconSize: [28, 28],
-				iconAnchor: [14, 14],
-			});
-
-			L.marker([skatepark.lat, skatepark.lng], { icon: shopIcon })
-				.addTo(markersLayer)
-				.bindPopup(createMapPopupHTML(skatepark));
+			addSkateparkMarker(markersLayer, skatepark, markerClasses.join(' '))
 		});
 
 		// Fit bounds to show all markers
@@ -110,7 +119,7 @@
 			return null;
 		}
 
-		// Filter to shops with valid coordinates
+		// Filter to skateparks with valid coordinates
 		const validSkateparks = skateparks.filter(isSkateparkValid);
 
 		if (validSkateparks.length === 0) {
@@ -122,11 +131,11 @@
 		let east = validSkateparks[0].lng;
 		let west = validSkateparks[0].lng;
 
-		for (const shop of validSkateparks) {
-			if (shop.lat > north) north = shop.lat;
-			if (shop.lat < south) south = shop.lat;
-			if (shop.lng > east) east = shop.lng;
-			if (shop.lng < west) west = shop.lng;
+		for (const { lat, lng } of validSkateparks) {
+			north = Math.max(north, lat);
+			south = Math.min(south, lat);
+			east = Math.max(east, lng);
+			west = Math.min(west, lng);
 		}
 
 		return { north, south, east, west };
@@ -189,13 +198,28 @@
 		return str.replace(/[&<>"']/g, (char) => htmlEscapes[char]);
 	}
 
+	function calculateDistance(lat1, lng1, lat2, lng2) {
+		const toRad = (deg) => deg * (Math.PI / 180);
+
+		const dLat = toRad(lat2 - lat1);
+		const dLng = toRad(lng2 - lng1);
+
+		const a =
+			Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+			Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLng / 2) * Math.sin(dLng / 2);
+
+		const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+
+		return EARTH_RADIUS_MILES * c;
+	}
+
 	d.addEventListener('DOMContentLoaded', function() {
 		const mapElement = d.getElementById('skatepark-map');
 		const dataElement = d.getElementById('skatepark-map-data');
 		if (dataElement) {
 			const skateparks = JSON.parse(dataElement.textContent).reverse();
 			const mapCenter = [42.8864, -78.8784];
-			updateMapMarkers(mapElement, skateparks, mapCenter[0], mapCenter[1]);
+			updateMapMarkers(mapElement, skateparks, ...mapCenter);
 		}
 	});
 })(document);
