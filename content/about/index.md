@@ -6,9 +6,14 @@ title = 'About'
 +++
 
 This website is meant to be a comprehensive list of skateparks in and around Buffalo, New York.
-There are great skateparks in Rochester
-(honorable mention to [Breaking Free Skatepark](https://www.breakingfreeskatepark.com/)),
-but they were intentionally omitted from this list.
+
+Originally we inluded only skateparks in Erie and Niagara counties.
+We now list all skateparks between the Genesee River and Welland Canal.
+However, you can use tags to view skateparks by region:
+[Buffalo](/tags/buffalo-niagara),
+[Rochester](/tags/greater-rochester),
+[Southern Tier](/tags/southern-tier), and
+[Ontario](/categories/ontario).
 
 Our goal is to provide photos and a list of features for each skatepark.
 Map websites often have photos of a skatepark, but frequently they have many duplicate or irrelevant photos, too.

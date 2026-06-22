@@ -10,7 +10,7 @@ description = 'A comprehensive list of skateparks in and around Buffalo, New Yor
 |
 [Southern Tier](/tags/southern-tier)
 |
-[Canada](/categories/ontario)
+[Ontario](/categories/ontario)
 
 You can use [tags](/tags) to find [DIY](/tags/diy) parks,
 parks with [small transition](/tags/2-ft-transition),
