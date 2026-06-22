@@ -7,9 +7,9 @@ title = 'About'
 
 This website is meant to be a comprehensive list of skateparks in and around Buffalo, New York.
 
-Originally we inluded only skateparks in Erie and Niagara counties.
+Originally we included only skateparks in Erie and Niagara counties.
 We now list all skateparks between the Genesee River and Welland Canal.
-However, you can use tags to view skateparks by region:
+However, you can use [tags](/tags) to view skateparks by region:
 [Buffalo](/tags/buffalo-niagara),
 [Rochester](/tags/greater-rochester),
 [Southern Tier](/tags/southern-tier), and
