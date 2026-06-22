@@ -2,6 +2,8 @@
 title = 'Fort Erie'
 latitude = 42.9039269
 longitude = -78.9763984
+#https://www.niagarathisweek.com/news/big-crowd-opens-skate-park/article_d04909b5-ae63-5932-a52f-61b432bdaaf8.html
+date = 2011-06-01T12:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor', 'ontario']
 tags = ['fort-erie','outdoor','concrete','flat-rail','down-rail','box','a-frame','hip','bowl','3-ft-transition','4-ft-transition']

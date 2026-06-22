@@ -2,7 +2,8 @@
 title = 'Dunkirk'
 latitude = 42.4971494
 longitude = -79.3209144
-#date = 2023-10-02T17:21:33-04:00
+# pretty sure it was 2010, but exact date is a guess
+date = 2010-05-01T12:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor', 'new york']
 tags = ['dunkirk','buffalo-niagara','outdoor','concrete','modular','illuminated','box','flat-rail','down-rail','hip','spine','volcano','3-ft-transition','4-ft-transition','stairs']
