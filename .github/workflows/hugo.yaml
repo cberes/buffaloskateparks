@@ -37,9 +37,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
-      - name: Download dependencies
-        run: ./download-deps static/vendor
-
       - name: Setup Go
         uses: actions/setup-go@v6
         with:
@@ -55,6 +52,15 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v6
+
+      - name: Install imagemagick
+        run: sudo apt-get install -y imagemagick
+
+      - name: Resize images
+        run: make resize
+
+      - name: Download dependencies
+        run: ./download-deps static/vendor
 
       - name: Build with Hugo
         env:
