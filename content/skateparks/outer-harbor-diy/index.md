@@ -20,6 +20,10 @@ DIY in Buffalo's Outer Harbor. The surface is concrete, and the middle is slight
 
 There's another, smaller DIY down the road.
 
+### Bathrooms
+
+There are bathrooms just north of the skatepark next to a parking lot.
+
 ### Summer 2025 update
 
 Moms Skateshop organized events to work on the DIY. They added new ledges and painted the obstacles. The tiny flat rail is gone.
@@ -30,10 +34,10 @@ The DIY is in good shape. A new (unusually short) flat rail was installed (bolte
 
 ## Features
 
+- 3' quarter pipe
+- lumpy 4' quarter pipe
 - boxes
 - rails
-- ramps
+- small ramps
+- parking block
 
-## Bathrooms
-
-There are bathrooms down the road by the marina.

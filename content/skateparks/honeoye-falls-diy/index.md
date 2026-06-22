@@ -17,6 +17,9 @@ Monroe Street Village Park, 321 Monroe St, Honeoye Falls, NY 14472
 
 DIY skatepark with lots of concrete work and big transitions.
 
+- [Interview](https://www.limitlessculturex.com/post/diy-directory-honeoye-falls)
+- [Sakrete video](https://www.youtube.com/watch?v=cvj1c5glVcI)
+
 ## Features
 
 - 2' quarter pipe
