@@ -3,7 +3,7 @@ title = 'Webster'
 latitude = 43.2073997
 longitude = -77.4421006
 # date = 2024-05-18T12:00:00-04:00
-# featured_image = 'images/1.jpg'
+# image = 'images/1.jpg'
 categories = ['outdoor', 'new york']
 tags = ['webster','greater-rochester','outdoor','asphalt','modular']
 +++

@@ -2,7 +2,7 @@
 title = 'Knifeworks Historical Site DIY'
 latitude = 43.1562664
 longitude = -79.2291789
-featured_image = 'images/1.jpg'
+image = 'images/1.jpg'
 categories = ['outdoor', 'ontario']
 tags = ['st-catharines','niagara-peninsula','outdoor','concrete','diy','box','3-ft-transition','4-ft-transition']
 +++

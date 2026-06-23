@@ -4,7 +4,7 @@ latitude = 43.0730657
 longitude = -79.1272481
 # https://www.historicniagara.ca/s/All/item/243656
 date = 2005-06-18T12:00:00-04:00
-featured_image = 'images/01.jpg'
+image = 'images/01.jpg'
 categories = ['outdoor', 'ontario']
 tags = ['niagara-falls-on','niagara-peninsula','outdoor','concrete','flat-rail','down-rail','box','manual-pad','hip','stairs','spine','5-ft-transition','6-ft-transition']
 +++

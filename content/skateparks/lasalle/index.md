@@ -4,7 +4,7 @@ latitude = 42.8960927
 longitude = -78.8994252
 # https://www.wbfo.org/local/2013-07-24/city-opens-new-skate-plaza-at-lasalle-park
 date = 2013-07-24T00:00:00-04:00
-featured_image = 'images/01.jpg'
+image = 'images/01.jpg'
 categories = ['outdoor', 'new york']
 tags = ['buffalo','buffalo-niagara','outdoor','concrete','box','flat-rail','down-rail','a-frame','hip','bowl','manual-pad','2-ft-transition','3-ft-transition','4-ft-transition','stairs']
 +++

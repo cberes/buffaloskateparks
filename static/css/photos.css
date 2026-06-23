@@ -1,21 +1,3 @@
-.carousel-image {
-  display: block;
-  height: 200px;
-  /* set min-width,
-     allow images to determine cell width */
-  min-width: 150px;
-  max-width: 100%;
-  margin-right: 10px;
-  /* vertically center */
-  top: 50%;
-  transform: translateY(-50%)
-}
-
-.carousel.is-fullscreen .carousel-image {
-  height: auto;
-  max-height: 100%;
-}
-
 /* Hide the carousel by default (e.g., on list pages, summaries, etc.) */
 .main-carousel {
   display: none;
@@ -24,8 +6,7 @@
 /* Show the carousel ONLY if it is inside an article whose class starts with "page-" */
 @media (scripting: enabled) {
 
-  article[class^="page-"] .main-carousel,
-  article[class*=" page-"] .main-carousel {
+  article.main-article .main-carousel {
     display: block;
   }
 }

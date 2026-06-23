@@ -3,7 +3,7 @@ title = 'Chippawa'
 latitude = 43.0326712
 longitude = -79.0399555
 date = 2017-07-01T12:00:00-04:00
-featured_image = 'images/1.jpg'
+image = 'images/1.jpg'
 categories = ['outdoor', 'ontario']
 tags = ['niagara-falls-on','niagara-peninsula','outdoor','concrete','modular','flat-rail','box','manual-pad','a-frame','hip','4-ft-transition']
 +++

@@ -15,9 +15,9 @@
   <div class="w-100 w-30-l mb4 relative bg-white">
     <div class="w-100 mb4 nested-copy-line-height relative bg-white">
       <div class="mb3 pa4 gray overflow-hidden bg-white">
-        <span class="f6 db">{{ title .type }}</span>
         <h1 class="f3 near-black">{{ .title }}</h1>
         <div class="nested-links f5 lh-copy nested-copy-line-height">
+          <p>{{ title .type }}</p>
           <p>{{ .address }}</p>
           {{- if .permalink -}}
           <p><a href="{{ .permalink }}">View {{ .type }}</a></p>

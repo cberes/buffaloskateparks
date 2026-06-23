@@ -3,7 +3,7 @@ title = 'Hamburg (Bayview Rd)'
 aliases = ['/skateparks/hamburg-bayview']
 latitude = 42.7791165
 longitude = -78.8549406
-featured_image = 'images/1.jpg'
+image = 'images/1.jpg'
 categories = ['outdoor', 'new york']
 #tags = ['hamburg','buffalo-niagara','outdoor','asphalt','modular','spine','3-ft-transition','4-ft-transition']
 +++

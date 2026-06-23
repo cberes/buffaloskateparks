@@ -2,7 +2,7 @@
 title = 'Scottsville'
 latitude = 43.0226326
 longitude = -77.7558882
-featured_image = 'images/1.jpg'
+image = 'images/1.jpg'
 categories = ['outdoor', 'new york']
 tags = ['scottsville','greater-rochester','outdoor','asphalt','modular','box','spine','3-ft-transition','4-ft-transition']
 +++

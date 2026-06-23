@@ -4,7 +4,7 @@ latitude = 43.2598637
 longitude = -77.700348
 #https://13wham.com/news/local/greece-celebrates-grand-opening-of-eco-friendly-skate-park-at-town-hall
 date = 2025-05-29T12:00:00-04:00
-featured_image = 'images/01.jpg'
+image = 'images/01.jpg'
 categories = ['outdoor', 'new york']
 tags = ['greece','greater-rochester','outdoor','concrete','box','manual-pad','flat-rail','down-rail','hip','stairs','bowl','3-ft-transition','4-ft-transition','5-ft-transition']
 +++

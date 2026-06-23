@@ -4,7 +4,7 @@ latitude = 42.3435832
 longitude = -77.672617
 # found this in a PDF; Hornell Kiwanis Club supported it with other groups
 date = 2001-07-24T12:00:00-04:00
-# featured_image = 'images/1.jpg'
+# image = 'images/1.jpg'
 categories = ['outdoor', 'new york']
 tags = ['hornell','southern-tier','outdoor','concrete','modular']
 +++

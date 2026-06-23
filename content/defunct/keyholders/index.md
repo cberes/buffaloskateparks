@@ -3,7 +3,7 @@ title = 'Keyholders'
 aliases = ['/skateparks/keyholders']
 # https://www.instagram.com/p/CxlDcijuIp6
 date = 2022-10-01T00:00:00-04:00
-featured_image = 'images/1.png'
+image = 'images/1.png'
 categories = ['indoor']
 #tags = ['lackawanna','indoor','wood','vert','down-rail','hip','4-ft-transition','5-ft-transition','6-ft-transition']
 +++

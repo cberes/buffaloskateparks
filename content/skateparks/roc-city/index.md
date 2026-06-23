@@ -4,7 +4,7 @@ latitude = 43.1515706
 longitude = -77.6268944
 #https://www.cityofrochester.gov/locations/roc-city-skatepark
 date = 2020-11-05T12:00:00-04:00
-featured_image = 'images/1.jpg'
+image = 'images/1.jpg'
 categories = ['outdoor', 'new york']
 tags = ['rochester','greater-rochester','outdoor','concrete','box','manual-pad','flat-rail','down-rail','stairs','a-frame','bowl','2-ft-transition','4-ft-transition','5-ft-transition','illuminated']
 +++

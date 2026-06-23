@@ -6,7 +6,7 @@ address = '1044 University Ave, Rochester, NY 14607'
 website = 'https://www.breakingfreeskatepark.com'
 #https://www.thebloombmx.com/2020/03/supportyourparkbreakingfree.html
 date = 2016-12-17T12:00:00-04:00
-featured_image = 'images/1.jpg'
+image = 'images/1.jpg'
 categories = ['indoor', 'new york']
 tags = ['rochester','greater-rochester','indoor','wood','box','a-frame','flat-rail','hip','bowl','spine','box-jump','2-ft-transition','3-ft-transition','5-ft-transition','6-ft-transition']
 +++

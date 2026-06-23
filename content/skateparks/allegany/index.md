@@ -4,7 +4,7 @@ latitude = 42.090834
 longitude = -78.500356
 # https://enchantedmountains.com/event/2024/allegany-river-skate-park-grand-opening-1051
 date = 2024-09-21T13:00:00-04:00
-featured_image = 'images/1.jpg'
+image = 'images/1.jpg'
 categories = ['outdoor', 'new york']
 tags = ['allegany','southern-tier','outdoor','concrete','box','manual-pad','flat-rail','hip','box-jump','3-ft-transition','4-ft-transition']
 +++

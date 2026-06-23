@@ -3,6 +3,8 @@ title = 'Map'
 [menu]
 [menu.main]
   weight = 40
+[menu.main.params]
+  icon = 'map'
 +++
 
 Local skateparks and shops

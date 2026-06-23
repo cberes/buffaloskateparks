@@ -4,7 +4,7 @@ latitude = 43.2206409
 longitude = -79.1193748
 # https://niagaranow.com/news.phtml/4488-new-notl-skatepark-officially-opens/
 date = 2020-09-23T12:00:00-04:00
-featured_image = 'images/1.jpg'
+image = 'images/1.jpg'
 categories = ['outdoor', 'ontario']
 tags = ['virgil','niagara-peninsula','outdoor','concrete','flat-rail','box','a-frame','3-ft-transition','4-ft-transition','6-ft-transition']
 +++

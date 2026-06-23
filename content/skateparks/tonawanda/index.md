@@ -5,7 +5,7 @@ latitude = 43.0090165
 longitude = -78.8739622
 # https://www.concretedisciples.com/global-skatepark-directory/usa-skateparks-guide/new-york/gregory-hayes-holler-community-skate-park-tonawanda/
 date = 2011-05-24T00:00:00-04:00
-featured_image = 'images/1.jpg'
+image = 'images/1.jpg'
 categories = ['outdoor', 'new york']
 tags = ['tonawanda','buffalo-niagara','outdoor','concrete','box','down-rail','3-ft-transition']
 +++

@@ -6,7 +6,7 @@ address = '4430 Bailey Ave, Buffalo, NY 14226'
 website = 'https://phatmanboardshop.com'
 # https://web.archive.org/web/20190722144301/http://phatmanboardshop.com:80/the-bailey-project/
 date = 2019-07-22T00:00:00-04:00
-featured_image = 'images/1.jpg'
+image = 'images/1.jpg'
 categories = ['indoor', 'new york']
 tags = ['amherst','buffalo-niagara','indoor','concrete','3-ft-transition']
 +++

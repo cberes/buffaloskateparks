@@ -5,7 +5,7 @@ longitude = -79.2450207
 address = '207 Pine St, Jamestown, NY 14701'
 website = 'http://jamestownskateproducts.com'
 date = 1997-01-01T12:00:00-04:00
-featured_image = 'images/01.jpg'
+image = 'images/01.jpg'
 categories = ['indoor', 'new york']
 tags = ['jamestown','southern-tier','indoor','wood','concrete','bowl','box','flat-rail','hip','manual-pad','2-ft-transition','3-ft-transition','5-ft-transition','spine']
 +++

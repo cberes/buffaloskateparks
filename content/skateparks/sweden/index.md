@@ -4,7 +4,7 @@ latitude = 43.202154
 longitude = -77.977651
 #https://westsidenewsny.com/news/2022-09-25/sweden-skatepark-under-construction/ 
 date = 2023-01-01T12:00:00-04:00
-featured_image = 'images/1.jpg'
+image = 'images/1.jpg'
 categories = ['outdoor', 'new york']
 tags = ['sweden','greater-rochester','outdoor','concrete','bowl','a-frame','box','manual-pad','flat-rail','down-rail','stairs','2-ft-transition','4-ft-transition']
 +++

@@ -1,7 +1,6 @@
 +++
-description = 'A comprehensive list of skateparks in and around Buffalo, New York.'
 [cascade]
-  featured_image = '/images/feature.jpg'
+  image = '/images/feature.jpg'
 +++
 
 [Buffalo](/tags/buffalo-niagara)

@@ -2,21 +2,58 @@ baseURL = 'https://skatebuffalo.com/'
 locale = 'en-us'
 title = 'Skate Buffalo'
 copyright = 'Corey Beres'
-theme = ['github.com/gohugo-ananke/ananke/v2']
 
 [pagination]
-  pagerSize = 9
+pagerSize = 9
 
 [params]
-customCss = ['vendor/css/flickity.css', 'vendor/css/flickity-fullscreen.css', 'vendor/css/leaflet.css', 'css/hero.css', 'css/photos.css', 'css/skatepark-map.css', 'css/dark.css']
+mainSections = ['skateparks']
+customCss = ['vendor/css/flickity.css', 'vendor/css/flickity-fullscreen.css', 'vendor/css/leaflet.css', 'css/hero.css', 'css/photos.css', 'css/skatepark-map.css']
 customJs = ['vendor/js/flickity.pkgd.min.js', 'vendor/js/flickity-fullscreen.js', 'vendor/js/leaflet.js', 'js/skatepark-map.js']
+
+[params.sidebar]
+subtitle = 'A comprehensive list of skateparks in and around Buffalo, New York.'
+# avatar = "images/avatar.png"
+
+[params.footer]
+since = 2023
+
+[params.article]
+readingTime = false
+
+[params.comments]
+enabled = false
+
+[params.widgets]
+    homepage = [
+        { type = "categories" },
+        { type = "tag-cloud", params = { limit = 20 } },
+    ]
+    page = [{ type = "toc" }]
+
+[menu]
+[[menu.social]]
+    identifier = "instagram"
+    name       = "Instagram"
+    url        = "https://www.instagram.com/skatebuffalo/"
+
+    [menu.social.params]
+        icon = "brand-instagram"
+
+[[menu.social]]
+    identifier = "github"
+    name       = "Github"
+    url        = "https://github.com/cberes/buffaloskateparks"
+
+    [menu.social.params]
+        icon = "brand-github"
 
 [module]
 [[module.imports]]
 disable = false
 ignoreConfig = false
 ignoreImports = false
-path = 'github.com/gohugo-ananke/ananke/v2'
+path = 'github.com/CaiJimmy/hugo-theme-stack/v4'
 
 [[module.mounts]]
   source = 'static'
@@ -25,3 +62,4 @@ path = 'github.com/gohugo-ananke/ananke/v2'
 [[module.mounts]]
   source = 'static/vendor/images'
   target = 'static/images'
+

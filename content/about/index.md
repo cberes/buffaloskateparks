@@ -3,6 +3,8 @@ title = 'About'
 [menu]
 [menu.main]
   weight = 50
+[menu.main.params]
+  icon = 'info-circle'
 +++
 
 This website is meant to be a comprehensive list of skateparks in and around Buffalo, New York.
