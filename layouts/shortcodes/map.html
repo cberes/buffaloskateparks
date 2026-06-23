@@ -23,3 +23,18 @@
   {{- end -}}
 ]
 </script>
+<script id="skatepark-shop-data" type="application/json">
+[
+  {{- range $index, $element := hugo.Data.shops -}}
+    {{- if $index }},{{ end -}}
+    {
+      "title": {{ $element.title }},
+      "address": {{ $element.address }},
+      "website": {{ $element.website }},
+      "lat": {{ float $element.latitude }},
+      "lng": {{ float $element.longitude }},
+      "shop": true
+    }
+  {{- end -}}
+]
+</script>

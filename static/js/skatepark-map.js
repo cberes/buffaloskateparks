@@ -5,40 +5,6 @@
 	const Z_OFFSET_SHOP = 500;
 	const MARKER_SIZE = 28;
 	const USER_MARKER_SIZE = 24;
-	const SHOPS = [
-		{
-			title: 'Krudco',
-			address: '60 Mt Hope Ave, Rochester, NY 14620',
-			website: 'https://www.krudco.com/',
-			lat: 43.1476988,
-			lng: -77.6096565,
-			shop: true,
-		},
-		{
-			title: 'Jaded',
-			address: '43 Market St, Brockport, NY 14420',
-			website: 'https://www.facebook.com/jadedskate/',
-			lat: 43.2155233,
-			lng: -77.9393658,
-			shop: true,
-		},
-		{
-			title: 'Pastime',
-			address: '6 Atlas St, Rochester, NY 14604',
-			website: 'https://pastimeskateshop.com/',
-			lat: 43.1563625,
-			lng: -77.6057681,
-			shop: true,
-		},
-		{
-			title: 'Old Skull',
-			address: '2555 Baird Rd # E, Penfield, NY 14526',
-			website: 'https://www.oldskullskateboards.com/',
-			lat: 43.1114307,
-			lng: -77.4660715,
-			shop: true,
-		},
-	];
 
 	let map = null;
 	let markersLayer = null;
@@ -271,12 +237,16 @@
 	d.addEventListener('DOMContentLoaded', function() {
 		const mapElement = d.getElementById('skatepark-map');
 		const dataElement = d.getElementById('skatepark-map-data');
-		if (dataElement) {
-			const skateparks = JSON.parse(dataElement.textContent);
-			skateparks.push(...SHOPS);
-			const mapCenter = [42.8864, -78.8784];
-			updateMapMarkers(mapElement, skateparks, ...mapCenter);
+		const shopsElement = d.getElementById('skatepark-shop-data');
+		if (!mapElement) {
+			return;
 		}
+
+		const skateparks = dataElement ? JSON.parse(dataElement.textContent) : [];
+		const shops = shopsElement ? JSON.parse(shopsElement.textContent) : [];
+		skateparks.push(...shops);
+		const mapCenter = [42.8864, -78.8784];
+		updateMapMarkers(mapElement, skateparks, ...mapCenter);
 	});
 })(document);
 
