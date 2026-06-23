@@ -1,4 +1,31 @@
 /* Map Container */
+:root {
+	--color-map-marker: #3a34db;
+	--color-map-indoor: #28a745;
+	--color-map-ontario: #dc3545;
+	--color-map-shop: #777;
+	--color-map-user: #171729;
+	--color-border: #ddd;
+	--border-radius: 8px;
+	--color-indoor: #767c2e;
+	--color-indoor-bg: #f3f4e8;
+	--color-shop: #2e7d32;
+	--color-shop-bg: #e8f5e9;
+	--spacing-xs: 0.25rem;
+	--spacing-sm: 0.5rem;
+	--spacing-md: 1rem;
+	--font-size-base: 16px;
+	--font-size-sm: 0.875rem;
+	--color-primary: #1a1a2e;
+	--color-accent: #e94560;
+	--color-text-light: #666;
+	--border-radius: 8px;
+	--color-btn-dark: #1a1a2e;
+	--color-btn-dark-hover: #16213e;
+	--shadow: 0 2px 8px rgb(0 0 0 / 10%);
+	--shadow-lg: 0 4px 16px rgb(0 0 0 / 15%);
+}
+
 .skatepark-map {
 	height: 400px;
 	border-radius: var(--border-radius);
@@ -12,29 +39,37 @@
 	}
 }
 
-.shop-marker {
+.map-marker {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	width: 28px;
 	height: 28px;
-	background-color: #2e7d32;
+	background-color: var(--color-map-marker);
 	border: 3px solid #fff;
 	border-radius: 50%;
 	box-shadow: 0 2px 6px rgb(0 0 0 / 30%);
 }
 
-.shop-marker-indoor {
-	background-color: #e94560;
+.map-marker-indoor {
+	background-color: var(--color-map-indoor);
 }
 
-.user-marker {
+.map-marker-ontario {
+	background-color: var(--color-map-ontario);
+}
+
+.map-marker-shop {
+	background-color: var(--color-map-shop);
+}
+
+.map-marker-user {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	width: 24px;
 	height: 24px;
-	background-color: #171729;
+	background-color: var(--color-map-user);
 	border: 3px solid #fff;
 	border-radius: 50%;
 	box-shadow: 0 2px 6px rgb(0 0 0 / 30%);
@@ -83,16 +118,24 @@
 	margin-bottom: var(--spacing-sm);
 }
 
-.popup-badge-indoor {
+.popup-badge {
 	display: inline-block;
 	padding: 2px 6px;
 	font-size: 0.7rem;
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 0.3px;
-	color: var(--color-independent);
-	background-color: var(--color-independent-bg);
 	border-radius: 3px;
+}
+
+.popup-badge-indoor {
+	color: var(--color-indoor);
+	background-color: var(--color-indoor-bg);
+}
+
+.popup-badge-shop {
+	color: var(--color-shop);
+	background-color: var(--color-shop-bg);
 }
 
 .popup-link {

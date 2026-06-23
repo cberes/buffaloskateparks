@@ -1,5 +1,45 @@
 (function(d) {
 	const EARTH_RADIUS_MILES = 3959;
+	const SHOW_USER_MARKER = false;
+	const Z_OFFSET_INDOOR = 1000;
+	const Z_OFFSET_SHOP = 500;
+	const MARKER_SIZE = 28;
+	const USER_MARKER_SIZE = 24;
+	const SHOPS = [
+		{
+			title: 'Krudco',
+			address: '60 Mt Hope Ave, Rochester, NY 14620',
+			website: 'https://www.krudco.com/',
+			lat: 43.1476988,
+			lng: -77.6096565,
+			shop: true,
+		},
+		{
+			title: 'Jaded',
+			address: '43 Market St, Brockport, NY 14420',
+			website: 'https://www.facebook.com/jadedskate/',
+			lat: 43.2155233,
+			lng: -77.9393658,
+			shop: true,
+		},
+		{
+			title: 'Pastime',
+			address: '6 Atlas St, Rochester, NY 14604',
+			website: 'https://pastimeskateshop.com/',
+			lat: 43.1563625,
+			lng: -77.6057681,
+			shop: true,
+		},
+		{
+			title: 'Old Skull',
+			address: '2555 Baird Rd # E, Penfield, NY 14526',
+			website: 'https://www.oldskullskateboards.com/',
+			lat: 43.1114307,
+			lng: -77.4660715,
+			shop: true,
+		},
+	];
+
 	let map = null;
 	let markersLayer = null;
 
@@ -22,24 +62,28 @@
 		markersLayer = L.layerGroup().addTo(map);
 	}
 
-	function addSkateparkMarker(markersLayer, skatepark, className) {
+	function addSkateparkMarker(markersLayer, skatepark, className, offset) {
 		const popup = createMapPopupHTML(skatepark);
-		addMarker(markersLayer, [skatepark.lat, skatepark.lng], 28, className, popup);
+		const coords = [skatepark.lat, skatepark.lng];
+		addMarker(markersLayer, coords, className, popup, MARKER_SIZE, offset);
 	}
 
 	function addUserMarker(markersLayer, coords) {
+		if (!SHOW_USER_MARKER) {
+			return;
+		}
 		const popup = '<div class="map-popup"><strong>Your Location</strong></div>';
-		addMarker(markersLayer, coords, 24, 'user-marker', popup);
+		addMarker(markersLayer, coords, 'map-marker-user', popup, USER_MARKER_SIZE);
 	}
 
-	function addMarker(markersLayer, coords, size, className, popup) {
+	function addMarker(markersLayer, coords, className, popup, size, offset) {
 		const icon = L.divIcon({
 			className,
 			iconSize: [size, size],
 			iconAnchor: [size / 2, size / 2],
 		});
 
-		L.marker(coords, { icon })
+		L.marker(coords, { icon, zIndexOffset: offset || 0 })
 			.addTo(markersLayer)
 			.bindPopup(popup);
 	}
@@ -55,7 +99,7 @@
 
 		// Add user location marker
 		if (userLat && userLng) {
-			// addUserMarker(markersLayer, [userLat, userLng]);
+			addUserMarker(markersLayer, [userLat, userLng]);
 		}
 
 		// Add skatepark markers
@@ -70,18 +114,23 @@
 			skatepark.ontario = (skatepark.categories || []).includes('ontario');
 			skatepark.distance = calculateDistance(userLat, userLng, skatepark.lat, skatepark.lng);
 
-			const markerClasses = ['shop-marker'];
+			const offset = skatepark.indoor ? Z_OFFSET_INDOOR :
+				skatepark.shop ? Z_OFFSET_SHOP : 0;
+			const markerClasses = ['map-marker'];
 			if (skatepark.indoor) {
-				markerClasses.push('shop-marker-indoor');
+				markerClasses.push('map-marker-indoor');
 			}
 			if (skatepark.newYork) {
-				markerClasses.push('shop-marker-new-york');
+				markerClasses.push('map-marker-new-york');
 			}
 			if (skatepark.ontario) {
-				markerClasses.push('shop-marker-ontario');
+				markerClasses.push('map-marker-ontario');
+			}
+			if (skatepark.shop) {
+				markerClasses.push('map-marker-shop');
 			}
 
-			addSkateparkMarker(markersLayer, skatepark, markerClasses.join(' '))
+			addSkateparkMarker(markersLayer, skatepark, markerClasses.join(' '), offset)
 		});
 
 		// Fit bounds to show all markers
@@ -145,7 +194,11 @@
 		const distanceDisplay = typeof skatepark.distance === 'number' ? skatepark.distance.toFixed(1) : '?';
 
 		const indoorBadge = skatepark.indoor
-			? '<span class="popup-badge-indoor">Indoor</span>'
+			? '<span class="popup-badge popup-badge-indoor">Indoor</span>'
+			: '';
+
+		const shopBadge = skatepark.shop
+			? '<span class="popup-badge popup-badge-shop">Skateshop</span>'
 			: '';
 
 		const websiteLink = skatepark.website
@@ -162,6 +215,7 @@
 		const popupPhoto = skatepark.photo
 			? `<div class="popup-photo"><img src="${escapeHtml(skatepark.photo)}" alt="${escapeHtml(skatepark.title)}" loading="lazy" onerror="this.parentElement.style.display='none'"></div>`
 			: '';
+		const popupAddress = skatepark.shop ? '' : `<a href="${escapeHtml(skatepark.permalink)}">View Skatepark</a>`;
 
 		return `
         <div class="map-popup">
@@ -170,11 +224,12 @@
                 <strong class="popup-name">${escapeHtml(skatepark.title)}</strong>
                 <span class="popup-distance">${distanceDisplay} mi</span>
             </div>
-            <p class="popup-address">
-              <a href="${escapeHtml(skatepark.permalink)}">View Skatepark</a>
-            </p>
+            <div class="popup-header">
+                ${popupAddress}
+            </div>
             <div class="popup-details">
                 ${indoorBadge}
+                ${shopBadge}
                 ${websiteLink}
                 ${phoneLink}
             </div>
@@ -217,7 +272,8 @@
 		const mapElement = d.getElementById('skatepark-map');
 		const dataElement = d.getElementById('skatepark-map-data');
 		if (dataElement) {
-			const skateparks = JSON.parse(dataElement.textContent).reverse();
+			const skateparks = JSON.parse(dataElement.textContent);
+			skateparks.push(...SHOPS);
 			const mapCenter = [42.8864, -78.8784];
 			updateMapMarkers(mapElement, skateparks, ...mapCenter);
 		}
