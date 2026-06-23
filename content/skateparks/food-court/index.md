@@ -2,6 +2,8 @@
 title = 'Food Court'
 latitude = 42.7860338
 longitude = -78.8100549
+address = '3701 McKinley Pkwy Unit 835, Buffalo, NY 14219'
+website = 'https://foodcourtskatepark.com'
 # https://www.wkbw.com/news/local-news/food-court-skatepark-in-mckinley-mall-brings-year-round-skateboarding-to-wny
 date = 2023-07-23T12:00:00-04:00
 featured_image = 'images/1.jpg'
@@ -13,7 +15,7 @@ tags = ['hamburg','buffalo-niagara','indoor','wood','bowl','box','flat-rail','do
 
 ## Location 
 
-3701 McKinley Pkwy Unit 835, Buffalo, NY 14219
+{{< param address >}}
 
 ## Description
 
@@ -24,7 +26,7 @@ The back entrance leads directly to the attached skateshop.
 
 ### Website
 
-[foodcourtskatepark.com](https://www.foodcourtskatepark.com/)
+{{< website >}}
 
 ## Features
 

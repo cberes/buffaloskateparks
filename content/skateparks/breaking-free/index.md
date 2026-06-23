@@ -2,6 +2,8 @@
 title = 'Breaking Free'
 latitude = 43.1542082
 longitude = -77.576256
+address = '1044 University Ave, Rochester, NY 14607'
+website = 'https://www.breakingfreeskatepark.com'
 #https://www.thebloombmx.com/2020/03/supportyourparkbreakingfree.html
 date = 2016-12-17T12:00:00-04:00
 featured_image = 'images/1.jpg'
@@ -15,7 +17,7 @@ tags = ['rochester','greater-rochester','indoor','wood','box','a-frame','flat-ra
 
 ## Location
 
-1044 University Ave, Rochester, NY 14607
+{{< param address >}}
 
 ## Description
 
@@ -27,7 +29,7 @@ They had a resi ramp and foam pit at one point; unsure if they still do.
 
 ### Website
 
-[breakingfreeskatepark.com](https://www.breakingfreeskatepark.com/)
+{{< website >}}
 
 ## Features
 

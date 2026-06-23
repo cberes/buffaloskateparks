@@ -2,6 +2,8 @@
 title = 'Phatman'
 latitude = 42.9757944
 longitude = -78.8166374
+address = '4430 Bailey Ave, Buffalo, NY 14226'
+website = 'https://phatmanboardshop.com'
 # https://web.archive.org/web/20190722144301/http://phatmanboardshop.com:80/the-bailey-project/
 date = 2019-07-22T00:00:00-04:00
 featured_image = 'images/1.jpg'
@@ -13,7 +15,7 @@ tags = ['amherst','buffalo-niagara','indoor','concrete','3-ft-transition']
 
 ## Location
 
-4430 Bailey Ave, Buffalo, NY 14226
+{{< param address >}}
 
 ## Description
 
@@ -21,7 +23,7 @@ The skateshop contains an indoor, concrete skatepark. Occasionally the park is o
 
 ### Website
 
-[phatmanboardshop.com](https://www.phatmanboardshop.com/)
+{{< website >}}
 
 ## Features
 

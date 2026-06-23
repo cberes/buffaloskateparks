@@ -1,0 +1,26 @@
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Address</th>
+      <th>Website</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{- range where (where .Site.RegularPages "Type" "skateparks") "Params.categories" "intersect" (slice "indoor")
+    -}}
+    <tr>
+      <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+      <td>{{ .Params.address }}</td>
+      <td><a href="{{ .Params.website }}">{{ strings.TrimPrefix "https://" .Params.website }}</a></td>
+    </tr>
+    {{- end -}}
+    {{- range sort hugo.Data.shops "title" -}}
+    <tr>
+      <td>{{ .title }}</td>
+      <td>{{ .address }}</td>
+      <td><a href="{{ .website }}">{{ strings.TrimPrefix "https://" .website }}</a></td>
+    </tr>
+    {{- end -}}
+  </tbody>
+</table>

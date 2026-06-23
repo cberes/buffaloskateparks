@@ -1,0 +1,3 @@
+{{- with .Page.Params.website -}}
+<a href="{{ . }}">{{ strings.TrimPrefix "https://" . }}</a>
+{{- end -}}
