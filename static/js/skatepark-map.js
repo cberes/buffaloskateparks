@@ -199,7 +199,7 @@
                 ${websiteLink}
                 ${phoneLink}
             </div>
-            <a href="${escapeHtml(directionsUrl)}" class="popup-directions" target="_blank" rel="noopener noreferrer">Get Directions</a>
+            <a href="${escapeHtml(directionsUrl)}" class="button-link" target="_blank" rel="noopener noreferrer">Get Directions</a>
         </div>
     `;
 	}
