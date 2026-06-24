@@ -5,5 +5,5 @@ title = 'Shops'
   weight = 35
 +++
 
-{{< shops-table >}}
+{{< shops-list >}}
 
