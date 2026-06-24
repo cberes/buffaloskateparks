@@ -7,17 +7,20 @@
     </tr>
   </thead>
   <tbody>
-    {{- range where (where .Site.RegularPages "Type" "skateparks") "Params.categories" "intersect" (slice "indoor")
-    -}}
+    {{ $combined := slice }}
+    {{ range where (where .Site.RegularPages "Type" "skateparks") "Params.categories" "intersect" (slice
+    "indoor") }}
+    {{ $item := dict "type" "skatepark" "title" .Title "address" .Params.address "website" .Params.website "permalink"
+    .Permalink }}
+    {{ $combined = $combined | append $item }}
+    {{ end }}
+    {{ range hugo.Data.shops }}
+    {{ $item := dict "type" "skateshop" "title" .title "address" .address "website" .website "permalink" "" }}
+    {{ $combined = $combined | append $item }}
+    {{ end }}
+    {{- range sort $combined "title" -}}
     <tr>
-      <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
-      <td>{{ .Params.address }}</td>
-      <td><a href="{{ .Params.website }}">{{ strings.TrimPrefix "https://" .Params.website }}</a></td>
-    </tr>
-    {{- end -}}
-    {{- range sort hugo.Data.shops "title" -}}
-    <tr>
-      <td>{{ .title }}</td>
+      <td><a href="{{ .permalink }}">{{ .title }}</a></td>
       <td>{{ .address }}</td>
       <td><a href="{{ .website }}">{{ strings.TrimPrefix "https://" .website }}</a></td>
     </tr>
