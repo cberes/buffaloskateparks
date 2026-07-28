@@ -26,5 +26,5 @@ Pre-fab concrete features on an unskatable asphalt surface. The park is likely t
 - large bank
 - combination bank/euro gap/rail/ledge
 - square rail
-- ledge
+- box
 - parking block
