@@ -6,7 +6,7 @@ longitude = -77.2743475
 date = 2011-11-21T12:00:00-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor', 'new york']
-tags = ['canandaigua','greater-rochester','outdoor','concrete','a-frame','4-ft-transition','stairs','manual-pad','hip']
+tags = ['canandaigua','greater-rochester','outdoor','concrete','a-frame','4-ft-transition','stairs','manual-pad','hip','illuminated']
 +++
 
 {{< photos >}}
