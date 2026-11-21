@@ -6,7 +6,7 @@ longitude = -79.572075
 #date = 2023-10-02T17:22:13-04:00
 featured_image = 'images/1.jpg'
 categories = ['outdoor', 'new york']
-tags = ['westfield','buffalo-niagara','outdoor','asphalt','modular','illuminated','box','flat-rail','3-ft-transition','a-frame', 'manual-pad']
+tags = ['westfield','southern-tier','outdoor','asphalt','modular','illuminated','box','flat-rail','3-ft-transition','a-frame', 'manual-pad']
 +++
 
 {{< photos >}}
