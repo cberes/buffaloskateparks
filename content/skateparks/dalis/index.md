@@ -1,6 +1,8 @@
 +++
 title = "Dali's Indoor Park"
 aliases = ['/skateparks/daily-city-train', '/defunct/daily-city-train']
+latitude = 42.279164
+longitude = -78.670169
 # https://www.ellicottvillenow.com/articles/article-v2--kawrx-kcgyj-nbgfn-djx7c-2jj9n-6fb7g-8dn8l-m37e5-sbh4z-ncmlg-ly2jy-zkp32-y3sdm-ffmwx
 # date = 2023-08-19T12:00:00-04:00
 date = 2026-10-10T12:00:00-04:00
