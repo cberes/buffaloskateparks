@@ -10,6 +10,7 @@ theme = ['github.com/gohugo-ananke/ananke/v2']
 [params]
 customCss = ['vendor/css/flickity.css', 'vendor/css/flickity-fullscreen.css', 'vendor/css/leaflet.css', 'css/hero.css', 'css/photos.css', 'css/skatepark-map.css', 'css/dark.css']
 customJs = ['vendor/js/flickity.pkgd.min.js', 'vendor/js/flickity-fullscreen.js', 'vendor/js/leaflet.js', 'js/skatepark-map.js']
+favicon = '/images/favicon.png'
 
 [module]
 [[module.imports]]
